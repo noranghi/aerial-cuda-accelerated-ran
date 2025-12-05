@@ -55,14 +55,22 @@ if [[ -n "${NGC_API_KEY:-}" ]]; then
     # If needed for something else, set NGC_API_KEY and modify curl commands
     # https://docs.nvidia.com/ngc/latest/ngc-catalog-user-guide.html#download-resources-via-wget-authenticated-access
     CURL_AUTH_ARGS=(-H "Authorization: Bearer ${NGC_API_KEY}")
+
+    # Path when using AUTH
+    DOCA_CURL_VERSION_PATH="org/${NGC_ORG_TEAM}/resources/doca-for-aerial/versions/${DOCA_VERSION}/files/doca-for-aerial.zip"
+    LDPC_CURL_VERSION_PATH="org/${NGC_ORG_TEAM}/resources/ldpc-decoder-cubin/versions/${LDPC_DECODER_CUBIN_VERSION}/files/ldpc_decoder_cubin.zip"
+else
+    # Path when using public artifact - no AUTH
+    DOCA_CURL_VERSION_PATH="resources/org/${NGC_ORG_TEAM}/doca-for-aerial/${DOCA_VERSION}/files?redirect=true&path=doca-for-aerial.zip"
+    LDPC_CURL_VERSION_PATH="resources/org/${NGC_ORG_TEAM}/ldpc-decoder-cubin/${LDPC_DECODER_CUBIN_VERSION}/files?redirect=true&path=ldpc_decoder_cubin.zip"
 fi
 
 echo "Downloading doca-for-aerial.zip..."
-curl --fail "${CURL_AUTH_ARGS[@]}" -H "Content-Type: application/json" -L -o doca-for-aerial.zip "https://api.ngc.nvidia.com/v2/org/${NGC_ORG_TEAM}/resources/doca-for-aerial/versions/${DOCA_VERSION}/files/doca-for-aerial.zip"
+curl --fail "${CURL_AUTH_ARGS[@]}" -H "Content-Type: application/json" -L -o doca-for-aerial.zip "https://api.ngc.nvidia.com/v2/${DOCA_CURL_VERSION_PATH}"
 unzip -o doca-for-aerial.zip
 
 echo "Downloading ldpc_decoder_cubin.zip..."
-curl --fail "${CURL_AUTH_ARGS[@]}" -H 'Content-Type: application/json' -L -o ldpc_decoder_cubin.zip "https://api.ngc.nvidia.com/v2/org/${NGC_ORG_TEAM}/resources/ldpc-decoder-cubin/versions/${LDPC_DECODER_CUBIN_VERSION}/files/ldpc_decoder_cubin.zip"
+curl --fail "${CURL_AUTH_ARGS[@]}" -H 'Content-Type: application/json' -L -o ldpc_decoder_cubin.zip "https://api.ngc.nvidia.com/v2/${LDPC_CURL_VERSION_PATH}"
 unzip -o ldpc_decoder_cubin.zip
 
 hpccm --recipe aerial_base_recipe.py --cpu-target $CPU_TARGET --userarg AERIAL_GPU_TYPE=${AERIAL_GPU_TYPE} --format docker > Dockerfile_tmp
