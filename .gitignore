@@ -6,4 +6,10 @@ testVectors/multi-cell/*.yaml
 .vscode/
 .idea/
 build*/
-cmake-build-*/
+cmake-build-*/# Large binary files
+cuPHY/install/
+cuPHY/venv/
+*.so
+*.a
+__pycache__/
+*.pyc
