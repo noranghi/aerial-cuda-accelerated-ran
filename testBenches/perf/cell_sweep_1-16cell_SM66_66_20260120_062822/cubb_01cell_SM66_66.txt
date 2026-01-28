@@ -1,0 +1,199 @@
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+06:28:23.069437 CON 2454807 0 [NVLOG.CPP] Using /workspace/aerial-cuda-accelerated-ran/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+06:28:23.134050 CON 2454807 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+06:28:23.134811 CON 2454807 0 [TESTBENCH] CUDA_DEVICE_MAX_CONNECTIONS 8
+Pattern 0: DDDSUUDDDD mode A0
+Pattern 1: DDDSUUDDDD mode A0
+Pattern 2: DDDSUUDDDD mode A0
+Pattern 3: DDDSUUDDDD mode A0
+Pattern 4: DDDSUUDDDD mode A0
+Pattern 5: DDDSUUDDDD mode A0
+Pattern 6: DDDSUUDDDD mode A0
+Pattern 7: DDDSUUDDDD mode A0
+Pattern 8: DDDSUUDDDD mode A0
+Pattern 9: DDDSUUDDDD mode A0
+
+----------------------------------------------------------
+Notes on run setup:
+--> 2 CUDA contexts (workers) are run in parallel and in Graphs mode: 2 cuPHY CUDA contexts, 0 cuMAC contexts 
+
+requested SMs for context [0] PdschTxTestWorker    : 66
+requested SMs for context [1] PuschRxTestWorker    : 66
+
+Primary Context Id 0x2c6984a0
+----------------------------------------------------------
+Make request m_wrkrId 0 smCountRequested 66
+m_wrkrId 0 smCountRequested 66 smCountApplied 66
+Make request m_wrkrId 1 smCountRequested 66
+PdschTxTestWorker worker 0 :
+--> assigned 66 SMs
+--> Runs 1 stream(s) in parallel
+--> Each stream processes 8 PDSCH test-vector(s) in series
+
+CUDA stream prios: PUSCH -2, PUSCH2 -2, PDSCH -4, SRS -2, PRACH -3, PDCCH -4, PUCCH -3, PUCCH2 -3, SSB -4, CSIRS -4, ULBFW -2, DLBFW -3 
+m_wrkrId 1 smCountRequested 66 smCountApplied 66
+PuschRxTestWorker worker 1 :
+--> assigned 66 SMs
+--> Runs 1 stream(s) in parallel
+--> Each stream processes 1 PUSCH test-vector(s) in series
+
+CUDA stream prios: PUSCH -2, PUSCH2 -2, PDSCH -4, SRS -2, PRACH -3, PDCCH -4, PUCCH -3, PUCCH2 -3, SSB -4, CSIRS -4, ULBFW -2, DLBFW -3 
+06:28:25.720675 CON 2454814 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x760d348cfd30).
+06:28:25.750763 CON 2454814 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x760c98442c00).
+06:28:25.755189 CON 2454814 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x760c98457c00).
+06:28:25.758880 CON 2454814 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x760c9846d340).
+06:28:25.762785 CON 2454814 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x760c9848df90).
+06:28:25.766944 CON 2454814 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x760c984a3c50).
+06:28:25.770637 CON 2454814 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x760c984b8850).
+06:28:25.774564 CON 2454814 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x760c98508080).
+06:28:25.839975 CON 2454815 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:28:25.887116 CON 2454815 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x760d14c1b170).
+06:28:25.887122 CON 2454815 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+cuPHY Test Worker[0]: SM Id counts 132
+00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 
+cuPHY Test Worker[1]: SM Id counts 132
+00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 
+06:28:25.943777 CON 2454815 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:28:25.996539 CON 2454815 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x760d153aabe0).
+06:28:25.996547 CON 2454815 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+
+-----------------------------------------------------------
+Slot pattern # 0
+average slot pattern run time: 4602.15 us (averaged over 1000 iterations) 
+Average PUSCH run time: 242.89 us from 30.27 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 792.85 us from 632.23 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 67.46 us from 3.40 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 534.43 us from 498.38 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1032.04 us from 997.12 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1527.56 us from 1495.93 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2027.63 us from 1995.89 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2762.25 us from 2709.25 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3171.46 us from 3139.31 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3628.14 us from 3596.39 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 1
+average slot pattern run time: 4617.50 us (averaged over 1000 iterations) 
+Average PUSCH run time: 242.71 us from 28.93 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 775.80 us from 629.01 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 61.01 us from 3.36 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 536.42 us from 500.66 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1032.29 us from 998.58 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1529.31 us from 1497.64 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2029.14 us from 1997.13 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2755.53 us from 2711.95 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3168.39 us from 3136.72 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3626.57 us from 3594.96 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 2
+average slot pattern run time: 4552.64 us (averaged over 1000 iterations) 
+Average PUSCH run time: 241.70 us from 28.40 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 790.99 us from 626.51 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 61.70 us from 2.74 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 532.52 us from 497.42 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1031.62 us from 996.54 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1526.85 us from 1495.07 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2026.77 us from 1995.01 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2773.47 us from 2730.80 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3184.13 us from 3152.28 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3632.55 us from 3600.73 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 3
+average slot pattern run time: 4494.08 us (averaged over 1000 iterations) 
+Average PUSCH run time: 238.32 us from 25.76 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 770.67 us from 620.32 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 60.20 us from 2.60 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 533.67 us from 499.16 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1032.04 us from 998.18 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1529.37 us from 1497.55 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2029.59 us from 1997.51 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2809.59 us from 2764.11 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3196.26 us from 3164.47 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3638.11 us from 3606.33 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 4
+average slot pattern run time: 4526.74 us (averaged over 1000 iterations) 
+Average PUSCH run time: 240.09 us from 27.60 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 787.89 us from 623.34 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 60.08 us from 2.70 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 534.89 us from 499.91 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1033.99 us from 999.12 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1529.20 us from 1497.33 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2028.93 us from 1996.84 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2791.69 us from 2757.88 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3188.57 us from 3156.75 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3637.65 us from 3605.85 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 5
+average slot pattern run time: 4512.03 us (averaged over 1000 iterations) 
+Average PUSCH run time: 241.99 us from 29.00 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 786.15 us from 624.03 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 58.75 us from 3.03 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 535.54 us from 500.83 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1034.63 us from 999.90 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1530.10 us from 1498.23 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2029.83 us from 1997.74 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2798.66 us from 2759.09 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3189.52 us from 3157.74 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3635.51 us from 3603.71 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 6
+average slot pattern run time: 4471.40 us (averaged over 1000 iterations) 
+Average PUSCH run time: 238.33 us from 24.80 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 766.27 us from 623.35 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 52.05 us from 3.16 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 533.53 us from 499.07 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1031.04 us from 997.70 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1529.14 us from 1497.38 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2029.36 us from 1997.34 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2776.82 us from 2740.34 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3180.67 us from 3148.99 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3624.95 us from 3593.29 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 7
+average slot pattern run time: 4487.95 us (averaged over 1000 iterations) 
+Average PUSCH run time: 239.18 us from 24.91 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 786.42 us from 623.46 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 52.87 us from 2.84 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 533.35 us from 498.71 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1033.49 us from 998.29 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1528.87 us from 1497.05 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2029.07 us from 1997.02 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2783.97 us from 2740.67 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3186.68 us from 3154.89 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3631.09 us from 3599.42 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 8
+average slot pattern run time: 4498.25 us (averaged over 1000 iterations) 
+Average PUSCH run time: 240.73 us from 27.51 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 796.55 us from 635.27 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 59.66 us from 3.38 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 534.78 us from 498.88 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1031.34 us from 996.46 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1527.00 us from 1495.36 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2027.18 us from 1995.32 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2722.80 us from 2685.11 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3147.71 us from 3115.72 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3608.45 us from 3577.06 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 9
+average slot pattern run time: 4321.61 us (averaged over 1000 iterations) 
+Average PUSCH run time: 235.86 us from 25.49 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 777.78 us from 635.50 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 58.57 us from 4.13 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 533.03 us from 497.38 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1028.84 us from 995.49 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1526.46 us from 1495.05 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2026.77 us from 1995.03 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2607.96 us from 2573.97 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3059.11 us from 3027.80 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3540.40 us from 3509.27 (averaged over 1000 iterations) 
+Exiting bg_fmtlog_collector - log queue ever was full: 0

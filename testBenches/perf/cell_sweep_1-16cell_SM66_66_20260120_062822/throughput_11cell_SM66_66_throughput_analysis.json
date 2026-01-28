@@ -1,0 +1,535 @@
+{
+  "parse_time": "2026-01-20T06:49:33.194381",
+  "setup": {
+    "pdsch_sms": 66,
+    "pusch_sms": 66,
+    "total_contexts": 2,
+    "cuphy_contexts": 2,
+    "cumac_contexts": 0,
+    "streams": 11
+  },
+  "patterns": [
+    {
+      "pattern_num": 0,
+      "slot_pattern_time_us": 4263.31,
+      "pusch_time_us": 1112.11,
+      "pusch2_time_us": 2127.51,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 257.26,
+          "start_us": 4.07
+        },
+        {
+          "slot": 1,
+          "time_us": 636.61,
+          "start_us": 499.02
+        },
+        {
+          "slot": 2,
+          "time_us": 1138.62,
+          "start_us": 999.66
+        },
+        {
+          "slot": 3,
+          "time_us": 1638.61,
+          "start_us": 1500.21
+        },
+        {
+          "slot": 4,
+          "time_us": 2140.7,
+          "start_us": 2000.67
+        },
+        {
+          "slot": 5,
+          "time_us": 2676.87,
+          "start_us": 2506.54
+        },
+        {
+          "slot": 6,
+          "time_us": 3151.84,
+          "start_us": 3006.38
+        },
+        {
+          "slot": 7,
+          "time_us": 3680.04,
+          "start_us": 3510.69
+        }
+      ],
+      "pusch_start_us": 89.32,
+      "pusch2_start_us": 1386.0
+    },
+    {
+      "pattern_num": 1,
+      "slot_pattern_time_us": 5435.44,
+      "pusch_time_us": 1766.89,
+      "pusch2_time_us": 3175.86,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 274.98,
+          "start_us": 5.47
+        },
+        {
+          "slot": 1,
+          "time_us": 661.76,
+          "start_us": 524.49
+        },
+        {
+          "slot": 2,
+          "time_us": 1145.77,
+          "start_us": 1007.04
+        },
+        {
+          "slot": 3,
+          "time_us": 1641.1,
+          "start_us": 1500.39
+        },
+        {
+          "slot": 4,
+          "time_us": 2602.78,
+          "start_us": 1999.47
+        },
+        {
+          "slot": 5,
+          "time_us": 3154.75,
+          "start_us": 2902.07
+        },
+        {
+          "slot": 6,
+          "time_us": 3479.26,
+          "start_us": 3317.13
+        },
+        {
+          "slot": 7,
+          "time_us": 3891.32,
+          "start_us": 3731.56
+        }
+      ],
+      "pusch_start_us": 245.94,
+      "pusch2_start_us": 1771.08
+    },
+    {
+      "pattern_num": 2,
+      "slot_pattern_time_us": 4482.27,
+      "pusch_time_us": 1267.34,
+      "pusch2_time_us": 2378.8,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 265.46,
+          "start_us": 4.87
+        },
+        {
+          "slot": 1,
+          "time_us": 645.46,
+          "start_us": 508.51
+        },
+        {
+          "slot": 2,
+          "time_us": 1141.86,
+          "start_us": 1003.23
+        },
+        {
+          "slot": 3,
+          "time_us": 1639.46,
+          "start_us": 1500.88
+        },
+        {
+          "slot": 4,
+          "time_us": 2250.38,
+          "start_us": 2000.2
+        },
+        {
+          "slot": 5,
+          "time_us": 2793.07,
+          "start_us": 2598.55
+        },
+        {
+          "slot": 6,
+          "time_us": 3230.09,
+          "start_us": 3081.34
+        },
+        {
+          "slot": 7,
+          "time_us": 3726.76,
+          "start_us": 3566.32
+        }
+      ],
+      "pusch_start_us": 123.72,
+      "pusch2_start_us": 1466.21
+    },
+    {
+      "pattern_num": 3,
+      "slot_pattern_time_us": 4174.7,
+      "pusch_time_us": 1109.84,
+      "pusch2_time_us": 2126.56,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 249.8,
+          "start_us": 4.39
+        },
+        {
+          "slot": 1,
+          "time_us": 635.12,
+          "start_us": 498.1
+        },
+        {
+          "slot": 2,
+          "time_us": 1136.33,
+          "start_us": 998.32
+        },
+        {
+          "slot": 3,
+          "time_us": 1636.04,
+          "start_us": 1498.36
+        },
+        {
+          "slot": 4,
+          "time_us": 2145.87,
+          "start_us": 1998.65
+        },
+        {
+          "slot": 5,
+          "time_us": 2671.94,
+          "start_us": 2504.25
+        },
+        {
+          "slot": 6,
+          "time_us": 3143.95,
+          "start_us": 3001.5
+        },
+        {
+          "slot": 7,
+          "time_us": 3671.28,
+          "start_us": 3511.59
+        }
+      ],
+      "pusch_start_us": 89.02,
+      "pusch2_start_us": 1370.12
+    },
+    {
+      "pattern_num": 4,
+      "slot_pattern_time_us": 4205.44,
+      "pusch_time_us": 1098.36,
+      "pusch2_time_us": 2119.42,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 254.13,
+          "start_us": 4.35
+        },
+        {
+          "slot": 1,
+          "time_us": 634.1,
+          "start_us": 497.61
+        },
+        {
+          "slot": 2,
+          "time_us": 1135.9,
+          "start_us": 997.74
+        },
+        {
+          "slot": 3,
+          "time_us": 1635.57,
+          "start_us": 1497.89
+        },
+        {
+          "slot": 4,
+          "time_us": 2142.13,
+          "start_us": 1997.96
+        },
+        {
+          "slot": 5,
+          "time_us": 2673.18,
+          "start_us": 2503.6
+        },
+        {
+          "slot": 6,
+          "time_us": 3143.09,
+          "start_us": 3000.33
+        },
+        {
+          "slot": 7,
+          "time_us": 3672.71,
+          "start_us": 3507.5
+        }
+      ],
+      "pusch_start_us": 89.11,
+      "pusch2_start_us": 1374.89
+    },
+    {
+      "pattern_num": 5,
+      "slot_pattern_time_us": 5544.56,
+      "pusch_time_us": 1811.56,
+      "pusch2_time_us": 3248.55,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 287.64,
+          "start_us": 4.19
+        },
+        {
+          "slot": 1,
+          "time_us": 664.73,
+          "start_us": 528.23
+        },
+        {
+          "slot": 2,
+          "time_us": 1149.81,
+          "start_us": 1011.29
+        },
+        {
+          "slot": 3,
+          "time_us": 1644.89,
+          "start_us": 1503.38
+        },
+        {
+          "slot": 4,
+          "time_us": 2593.11,
+          "start_us": 2001.76
+        },
+        {
+          "slot": 5,
+          "time_us": 3163.47,
+          "start_us": 2918.63
+        },
+        {
+          "slot": 6,
+          "time_us": 3494.02,
+          "start_us": 3331.77
+        },
+        {
+          "slot": 7,
+          "time_us": 3906.31,
+          "start_us": 3745.74
+        }
+      ],
+      "pusch_start_us": 248.49,
+      "pusch2_start_us": 1777.23
+    },
+    {
+      "pattern_num": 6,
+      "slot_pattern_time_us": 4209.1,
+      "pusch_time_us": 1125.59,
+      "pusch2_time_us": 2133.34,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 251.9,
+          "start_us": 4.45
+        },
+        {
+          "slot": 1,
+          "time_us": 633.91,
+          "start_us": 497.66
+        },
+        {
+          "slot": 2,
+          "time_us": 1135.97,
+          "start_us": 997.86
+        },
+        {
+          "slot": 3,
+          "time_us": 1635.46,
+          "start_us": 1497.92
+        },
+        {
+          "slot": 4,
+          "time_us": 2143.27,
+          "start_us": 1998.15
+        },
+        {
+          "slot": 5,
+          "time_us": 2671.81,
+          "start_us": 2503.38
+        },
+        {
+          "slot": 6,
+          "time_us": 3147.91,
+          "start_us": 3002.47
+        },
+        {
+          "slot": 7,
+          "time_us": 3674.38,
+          "start_us": 3511.06
+        }
+      ],
+      "pusch_start_us": 88.88,
+      "pusch2_start_us": 1374.79
+    },
+    {
+      "pattern_num": 7,
+      "slot_pattern_time_us": 4242.93,
+      "pusch_time_us": 1120.23,
+      "pusch2_time_us": 2121.29,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 255.17,
+          "start_us": 4.34
+        },
+        {
+          "slot": 1,
+          "time_us": 634.09,
+          "start_us": 497.69
+        },
+        {
+          "slot": 2,
+          "time_us": 1136.42,
+          "start_us": 997.86
+        },
+        {
+          "slot": 3,
+          "time_us": 1635.82,
+          "start_us": 1497.9
+        },
+        {
+          "slot": 4,
+          "time_us": 2137.54,
+          "start_us": 1998.01
+        },
+        {
+          "slot": 5,
+          "time_us": 2674.19,
+          "start_us": 2503.6
+        },
+        {
+          "slot": 6,
+          "time_us": 3148.45,
+          "start_us": 3002.33
+        },
+        {
+          "slot": 7,
+          "time_us": 3673.88,
+          "start_us": 3507.62
+        }
+      ],
+      "pusch_start_us": 89.47,
+      "pusch2_start_us": 1379.37
+    },
+    {
+      "pattern_num": 8,
+      "slot_pattern_time_us": 4295.7,
+      "pusch_time_us": 1142.97,
+      "pusch2_time_us": 2142.0,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 259.75,
+          "start_us": 4.31
+        },
+        {
+          "slot": 1,
+          "time_us": 633.97,
+          "start_us": 497.33
+        },
+        {
+          "slot": 2,
+          "time_us": 1135.68,
+          "start_us": 997.52
+        },
+        {
+          "slot": 3,
+          "time_us": 1635.08,
+          "start_us": 1497.58
+        },
+        {
+          "slot": 4,
+          "time_us": 2137.61,
+          "start_us": 1997.63
+        },
+        {
+          "slot": 5,
+          "time_us": 2676.47,
+          "start_us": 2503.29
+        },
+        {
+          "slot": 6,
+          "time_us": 3151.07,
+          "start_us": 3002.92
+        },
+        {
+          "slot": 7,
+          "time_us": 3672.25,
+          "start_us": 3506.9
+        }
+      ],
+      "pusch_start_us": 91.66,
+      "pusch2_start_us": 1395.54
+    },
+    {
+      "pattern_num": 9,
+      "slot_pattern_time_us": 5468.07,
+      "pusch_time_us": 1782.55,
+      "pusch2_time_us": 3202.95,
+      "pdsch_slots": [
+        {
+          "slot": 0,
+          "time_us": 280.73,
+          "start_us": 5.4
+        },
+        {
+          "slot": 1,
+          "time_us": 662.24,
+          "start_us": 525.82
+        },
+        {
+          "slot": 2,
+          "time_us": 1146.2,
+          "start_us": 1007.2
+        },
+        {
+          "slot": 3,
+          "time_us": 1639.18,
+          "start_us": 1498.92
+        },
+        {
+          "slot": 4,
+          "time_us": 2591.71,
+          "start_us": 1998.15
+        },
+        {
+          "slot": 5,
+          "time_us": 3152.85,
+          "start_us": 2905.87
+        },
+        {
+          "slot": 6,
+          "time_us": 3477.16,
+          "start_us": 3316.86
+        },
+        {
+          "slot": 7,
+          "time_us": 3892.12,
+          "start_us": 3733.55
+        }
+      ],
+      "pusch_start_us": 236.02,
+      "pusch2_start_us": 1754.88
+    }
+  ],
+  "summary": {
+    "num_patterns": 10,
+    "avg_slot_pattern_time_us": 4632.152,
+    "avg_pusch_time_us": 1333.744,
+    "avg_pusch2_time_us": 2477.628,
+    "min_slot_pattern_time_us": 4174.7,
+    "max_slot_pattern_time_us": 5544.56,
+    "std_slot_pattern_time_us": 563.031089599855,
+    "patterns_per_second": 215.88238037093777,
+    "slots_per_second": 2158.823803709378,
+    "realtime_requirement_us": 5000,
+    "realtime_margin_us": 367.84799999999996,
+    "realtime_margin_percent": 7.356959999999998,
+    "realtime_satisfied": true,
+    "num_cells": 11,
+    "cell_slots_per_second": 23747.06184080316,
+    "estimated_throughput_mbps": 1650,
+    "estimated_throughput_gbps": 1.65,
+    "avg_slot_time_us": 463.2152,
+    "slot_realtime_margin_us": 36.78480000000002,
+    "slot_realtime_satisfied": true
+  }
+}

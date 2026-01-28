@@ -1,0 +1,631 @@
+{
+  "analysis_timestamp": "2026-01-18T07:37:38.522908",
+  "total_files_analyzed": 7,
+  "summary": [
+    {
+      "target_label": "00/00",
+      "target_dl": 0,
+      "target_ul": 0,
+      "target_total": 0,
+      "capacity": 0,
+      "capacity_pdsch": 0,
+      "capacity_pusch1": 0,
+      "capacity_pusch2": 0,
+      "efficiency_cells_per_sm": 0,
+      "freq_mhz": "?",
+      "iterations": "?",
+      "sweeps": "?",
+      "pattern": "?",
+      "source_file": "040_040_sweep_graphs_avg_F08_500us_validation.json"
+    },
+    {
+      "target_label": "00/00",
+      "target_dl": 0,
+      "target_ul": 0,
+      "target_total": 0,
+      "capacity": 0,
+      "capacity_pdsch": 0,
+      "capacity_pusch1": 0,
+      "capacity_pusch2": 0,
+      "efficiency_cells_per_sm": 0,
+      "freq_mhz": "?",
+      "iterations": "?",
+      "sweeps": "?",
+      "pattern": "?",
+      "source_file": "060_060_sweep_graphs_avg_F08_500us_validation.json"
+    },
+    {
+      "target_label": "00/00",
+      "target_dl": 0,
+      "target_ul": 0,
+      "target_total": 0,
+      "capacity": 0,
+      "capacity_pdsch": 0,
+      "capacity_pusch1": 0,
+      "capacity_pusch2": 0,
+      "efficiency_cells_per_sm": 0,
+      "freq_mhz": "?",
+      "iterations": "?",
+      "sweeps": "?",
+      "pattern": "?",
+      "source_file": "066_066_sweep_graphs_avg_F08_500us_validation.json"
+    },
+    {
+      "target_label": "00/00",
+      "target_dl": 0,
+      "target_ul": 0,
+      "target_total": 0,
+      "capacity": 0,
+      "capacity_pdsch": 0,
+      "capacity_pusch1": 0,
+      "capacity_pusch2": 0,
+      "efficiency_cells_per_sm": 0,
+      "freq_mhz": "?",
+      "iterations": "?",
+      "sweeps": "?",
+      "pattern": "?",
+      "source_file": "target_sweep_analysis_1.json"
+    },
+    {
+      "target_label": "40/40",
+      "target_dl": 40,
+      "target_ul": 40,
+      "target_total": 80,
+      "capacity": 12,
+      "capacity_pdsch": 16,
+      "capacity_pusch1": 12,
+      "capacity_pusch2": 16,
+      "efficiency_cells_per_sm": 0.15,
+      "freq_mhz": 1500,
+      "iterations": 1000,
+      "sweeps": 80,
+      "pattern": "dddsuudddd",
+      "source_file": "040_040_sweep_graphs_avg_F08.json"
+    },
+    {
+      "target_label": "60/60",
+      "target_dl": 60,
+      "target_ul": 60,
+      "target_total": 120,
+      "capacity": 16,
+      "capacity_pdsch": 16,
+      "capacity_pusch1": 16,
+      "capacity_pusch2": 16,
+      "efficiency_cells_per_sm": 0.1333,
+      "freq_mhz": 1500,
+      "iterations": 1000,
+      "sweeps": 80,
+      "pattern": "dddsuudddd",
+      "source_file": "060_060_sweep_graphs_avg_F08.json"
+    },
+    {
+      "target_label": "66/66",
+      "target_dl": 66,
+      "target_ul": 66,
+      "target_total": 132,
+      "capacity": 13,
+      "capacity_pdsch": 16,
+      "capacity_pusch1": 13,
+      "capacity_pusch2": 16,
+      "efficiency_cells_per_sm": 0.0985,
+      "freq_mhz": 1500,
+      "iterations": 1000,
+      "sweeps": 80,
+      "pattern": "dddsuudddd",
+      "source_file": "066_066_sweep_graphs_avg_F08.json"
+    }
+  ],
+  "detailed_results": [
+    {
+      "target_label": "00/00",
+      "cells": {}
+    },
+    {
+      "target_label": "00/00",
+      "cells": {}
+    },
+    {
+      "target_label": "00/00",
+      "cells": {}
+    },
+    {
+      "target_label": "00/00",
+      "cells": {}
+    },
+    {
+      "target_label": "40/40",
+      "cells": {
+        "1": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 39.42,
+          "pusch1_avg_us": 218.18,
+          "pusch2_avg_us": 152.91,
+          "memory_mb": 298.24
+        },
+        "2": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 58.78,
+          "pusch1_avg_us": 335.45,
+          "pusch2_avg_us": 213.82,
+          "memory_mb": 596.48
+        },
+        "3": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 74.58,
+          "pusch1_avg_us": 491.86,
+          "pusch2_avg_us": 288.19,
+          "memory_mb": 894.71
+        },
+        "4": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 88.73,
+          "pusch1_avg_us": 600.8,
+          "pusch2_avg_us": 367.32,
+          "memory_mb": 1192.95
+        },
+        "5": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 104.56,
+          "pusch1_avg_us": 704.89,
+          "pusch2_avg_us": 447.12,
+          "memory_mb": 1491.19
+        },
+        "6": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 120.24,
+          "pusch1_avg_us": 811.65,
+          "pusch2_avg_us": 532.62,
+          "memory_mb": 1789.43
+        },
+        "7": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 137.98,
+          "pusch1_avg_us": 918.85,
+          "pusch2_avg_us": 632.04,
+          "memory_mb": 2087.67
+        },
+        "8": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 154.25,
+          "pusch1_avg_us": 906.83,
+          "pusch2_avg_us": 689.1,
+          "memory_mb": 2385.9
+        },
+        "9": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 172.01,
+          "pusch1_avg_us": 1101.68,
+          "pusch2_avg_us": 787.51,
+          "memory_mb": 2684.14
+        },
+        "10": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 187.26,
+          "pusch1_avg_us": 1203.46,
+          "pusch2_avg_us": 856.67,
+          "memory_mb": 2982.38
+        },
+        "11": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 207.07,
+          "pusch1_avg_us": 1298.11,
+          "pusch2_avg_us": 922.87,
+          "memory_mb": 3280.62
+        },
+        "12": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 220.58,
+          "pusch1_avg_us": 1415.02,
+          "pusch2_avg_us": 1025.49,
+          "memory_mb": 3578.86
+        },
+        "13": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 0.5,
+          "ontime_pusch2": 1.0,
+          "all_ontime": false,
+          "pdsch_avg_us": 240.84,
+          "pusch1_avg_us": 1503.14,
+          "pusch2_avg_us": 1099.91,
+          "memory_mb": 3877.09
+        },
+        "14": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 0.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": false,
+          "pdsch_avg_us": 253.59,
+          "pusch1_avg_us": 1595.01,
+          "pusch2_avg_us": 1185.01,
+          "memory_mb": 4175.33
+        },
+        "15": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 0.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": false,
+          "pdsch_avg_us": 272.38,
+          "pusch1_avg_us": 1695.77,
+          "pusch2_avg_us": 1258.44,
+          "memory_mb": 4473.57
+        },
+        "16": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 0.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": false,
+          "pdsch_avg_us": 285.02,
+          "pusch1_avg_us": 1793.92,
+          "pusch2_avg_us": 1364.12,
+          "memory_mb": 4771.81
+        }
+      }
+    },
+    {
+      "target_label": "60/60",
+      "cells": {
+        "1": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 36.4,
+          "pusch1_avg_us": 231.43,
+          "pusch2_avg_us": 144.65,
+          "memory_mb": 298.24
+        },
+        "2": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 53.95,
+          "pusch1_avg_us": 315.86,
+          "pusch2_avg_us": 192.2,
+          "memory_mb": 596.48
+        },
+        "3": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 65.18,
+          "pusch1_avg_us": 413.66,
+          "pusch2_avg_us": 239.46,
+          "memory_mb": 894.71
+        },
+        "4": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 75.34,
+          "pusch1_avg_us": 504.96,
+          "pusch2_avg_us": 288.25,
+          "memory_mb": 1192.95
+        },
+        "5": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 86.17,
+          "pusch1_avg_us": 580.89,
+          "pusch2_avg_us": 341.09,
+          "memory_mb": 1491.19
+        },
+        "6": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 96.33,
+          "pusch1_avg_us": 660.55,
+          "pusch2_avg_us": 401.11,
+          "memory_mb": 1789.43
+        },
+        "7": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 109.03,
+          "pusch1_avg_us": 736.55,
+          "pusch2_avg_us": 463.42,
+          "memory_mb": 2087.67
+        },
+        "8": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 120.46,
+          "pusch1_avg_us": 804.26,
+          "pusch2_avg_us": 524.65,
+          "memory_mb": 2385.9
+        },
+        "9": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 134.08,
+          "pusch1_avg_us": 876.16,
+          "pusch2_avg_us": 596.43,
+          "memory_mb": 2684.14
+        },
+        "10": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 145.54,
+          "pusch1_avg_us": 957.25,
+          "pusch2_avg_us": 670.69,
+          "memory_mb": 2982.38
+        },
+        "11": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 166.54,
+          "pusch1_avg_us": 1254.08,
+          "pusch2_avg_us": 768.92,
+          "memory_mb": 3280.62
+        },
+        "12": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 170.79,
+          "pusch1_avg_us": 1102.05,
+          "pusch2_avg_us": 781.64,
+          "memory_mb": 3578.86
+        },
+        "13": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 185.41,
+          "pusch1_avg_us": 1172.49,
+          "pusch2_avg_us": 817.7,
+          "memory_mb": 3877.09
+        },
+        "14": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 194.91,
+          "pusch1_avg_us": 1237.79,
+          "pusch2_avg_us": 864.69,
+          "memory_mb": 4175.33
+        },
+        "15": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 209.07,
+          "pusch1_avg_us": 1337.6,
+          "pusch2_avg_us": 938.2,
+          "memory_mb": 4473.57
+        },
+        "16": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 222.92,
+          "pusch1_avg_us": 1417.35,
+          "pusch2_avg_us": 1016.7,
+          "memory_mb": 4771.81
+        }
+      }
+    },
+    {
+      "target_label": "66/66",
+      "cells": {
+        "1": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 34.34,
+          "pusch1_avg_us": 216.63,
+          "pusch2_avg_us": 141.86,
+          "memory_mb": 298.24
+        },
+        "2": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 50.27,
+          "pusch1_avg_us": 341.92,
+          "pusch2_avg_us": 190.71,
+          "memory_mb": 596.48
+        },
+        "3": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 61.7,
+          "pusch1_avg_us": 392.66,
+          "pusch2_avg_us": 238.44,
+          "memory_mb": 894.71
+        },
+        "4": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 75.64,
+          "pusch1_avg_us": 570.27,
+          "pusch2_avg_us": 283.61,
+          "memory_mb": 1192.95
+        },
+        "5": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 86.4,
+          "pusch1_avg_us": 674.06,
+          "pusch2_avg_us": 329.05,
+          "memory_mb": 1491.19
+        },
+        "6": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 98.63,
+          "pusch1_avg_us": 773.73,
+          "pusch2_avg_us": 404.28,
+          "memory_mb": 1789.43
+        },
+        "7": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 111.04,
+          "pusch1_avg_us": 883.05,
+          "pusch2_avg_us": 485.62,
+          "memory_mb": 2087.67
+        },
+        "8": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 121.47,
+          "pusch1_avg_us": 952.01,
+          "pusch2_avg_us": 538.46,
+          "memory_mb": 2385.9
+        },
+        "9": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 134.33,
+          "pusch1_avg_us": 1039.55,
+          "pusch2_avg_us": 588.65,
+          "memory_mb": 2684.14
+        },
+        "10": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 147.19,
+          "pusch1_avg_us": 1134.42,
+          "pusch2_avg_us": 663.1,
+          "memory_mb": 2982.38
+        },
+        "11": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 159.01,
+          "pusch1_avg_us": 1241.11,
+          "pusch2_avg_us": 733.77,
+          "memory_mb": 3280.62
+        },
+        "12": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 170.56,
+          "pusch1_avg_us": 1348.36,
+          "pusch2_avg_us": 828.8,
+          "memory_mb": 3578.86
+        },
+        "13": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 185.46,
+          "pusch1_avg_us": 1429.06,
+          "pusch2_avg_us": 908.18,
+          "memory_mb": 3877.09
+        },
+        "14": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 0.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": false,
+          "pdsch_avg_us": 195.06,
+          "pusch1_avg_us": 1535.56,
+          "pusch2_avg_us": 1009.52,
+          "memory_mb": 4175.33
+        },
+        "15": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 0.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": false,
+          "pdsch_avg_us": 208.26,
+          "pusch1_avg_us": 1628.4,
+          "pusch2_avg_us": 1114.99,
+          "memory_mb": 4473.57
+        },
+        "16": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 0.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": false,
+          "pdsch_avg_us": 218.81,
+          "pusch1_avg_us": 1737.2,
+          "pusch2_avg_us": 1212.7,
+          "memory_mb": 4771.81
+        }
+      }
+    }
+  ]
+}

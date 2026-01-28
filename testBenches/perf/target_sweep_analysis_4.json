@@ -1,0 +1,109 @@
+{
+  "analysis_timestamp": "2026-01-26T07:55:37.516891",
+  "total_files_analyzed": 1,
+  "summary": [
+    {
+      "target_label": "60/60",
+      "target_dl": 60,
+      "target_ul": 60,
+      "target_total": 120,
+      "capacity": 6,
+      "capacity_pdsch": 6,
+      "capacity_pusch1": 7,
+      "capacity_pusch2": 7,
+      "efficiency_cells_per_sm": 0.05,
+      "freq_mhz": 1500,
+      "iterations": 100,
+      "sweeps": 90,
+      "pattern": "dddsuudddd_mMIMO",
+      "source_file": "060_060_sweep_streams_avg_F14.json"
+    }
+  ],
+  "detailed_results": [
+    {
+      "target_label": "60/60",
+      "cells": {
+        "1": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 76.31,
+          "pusch1_avg_us": 338.09,
+          "pusch2_avg_us": 324.28,
+          "memory_mb": 442.36
+        },
+        "2": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 115.43,
+          "pusch1_avg_us": 581.54,
+          "pusch2_avg_us": 516.56,
+          "memory_mb": 884.72
+        },
+        "3": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 157.21,
+          "pusch1_avg_us": 843.9,
+          "pusch2_avg_us": 746.99,
+          "memory_mb": 1327.08
+        },
+        "4": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 195.17,
+          "pusch1_avg_us": 1050.04,
+          "pusch2_avg_us": 998.16,
+          "memory_mb": 1769.44
+        },
+        "5": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 225.66,
+          "pusch1_avg_us": 1265.78,
+          "pusch2_avg_us": 1223.03,
+          "memory_mb": 2211.8
+        },
+        "6": {
+          "ontime_pdsch": 1.0,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": true,
+          "pdsch_avg_us": 249.47,
+          "pusch1_avg_us": 1560.0,
+          "pusch2_avg_us": 1491.62,
+          "memory_mb": 2654.16
+        },
+        "7": {
+          "ontime_pdsch": 0.8,
+          "ontime_pusch1": 1.0,
+          "ontime_pusch2": 1.0,
+          "all_ontime": false,
+          "pdsch_avg_us": 282.76,
+          "pusch1_avg_us": 1804.14,
+          "pusch2_avg_us": 1735.78,
+          "memory_mb": 3096.52
+        },
+        "8": {
+          "ontime_pdsch": 0.0,
+          "ontime_pusch1": 0.0,
+          "ontime_pusch2": 0.0,
+          "all_ontime": false,
+          "pdsch_avg_us": 320.86,
+          "pusch1_avg_us": 2053.36,
+          "pusch2_avg_us": 1989.06,
+          "memory_mb": 3538.88
+        }
+      }
+    }
+  ]
+}

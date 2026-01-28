@@ -1,0 +1,59 @@
+======================================================================
+           RESOURCE MONITORING SUMMARY REPORT
+======================================================================
+Generated: 2026-01-27 15:24:59
+
+--------------------------------------------------
+ GPU Statistics
+--------------------------------------------------
+  GPU Utilization:
+    Average : 24.43%
+    Maximum : 95.00%
+    Minimum : 0.00%
+    Std Dev : 36.76%
+
+  GPU Memory Utilization:
+    Average : 0.25%
+    Maximum : 2.00%
+
+  GPU VRAM Usage:
+    Average : 2997 MB
+    Maximum : 8930 MB
+
+  Power Consumption:
+    Average : 96.65 W
+    Maximum : 150.30 W
+
+  Temperature:
+    Average : 50.3°C
+    Maximum : 58.0°C
+
+--------------------------------------------------
+ CPU Statistics
+--------------------------------------------------
+  Total CPU Usage:
+    Average : 1.65%
+
+  User Space:
+    Average : 1.19%
+    Maximum : 4.42%
+
+  Kernel Space:
+    Average : 0.46%
+    Maximum : 1.55%
+
+  I/O Wait:
+    Average : 0.00%
+
+--------------------------------------------------
+ Memory Statistics
+--------------------------------------------------
+  Usage Percentage:
+    Average : 5.16%
+    Maximum : 5.44%
+
+  Usage (MB):
+    Average : 26646 MB
+    Maximum : 28075 MB
+
+======================================================================

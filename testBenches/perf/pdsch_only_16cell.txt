@@ -1,0 +1,4 @@
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+13:49:36.427745 CON 511 0 [NVLOG.CPP] Using /workspace/aerial-cuda-accelerated-ran/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+13:49:36.493562 CON 511 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+13:49:36.494191 CON 511 0 [TESTBENCH] CUDA_DEVICE_MAX_CONNECTIONS 8

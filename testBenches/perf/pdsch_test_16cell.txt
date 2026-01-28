@@ -1,0 +1,51 @@
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+cuphy_ex_sch_rx_tx [options]
+  Options:
+    -h                     Display usage information
+    -i  yaml input_file    Input yaml filename
+    -d                     Debug message setting: Disable(0), Enable(> 0)
+    -m  process mode       streams (0), graphs (1).
+    -u                     uldl mode: -u 3 uses one UL and one DL context at a minimum, DL context processes 4 slots in serial
+                           uldl mode: -u 4 uses -C UL/DL contexts. Per slot each context has -S pipelines run -I times sequentially
+                           uldl mode: -u 5 long pattern DDDSUUDDDD
+                           uldl mode: -u 6 long pattern DDDSUUDDDD with new mMIMO timeline
+    -c  CPU Id             CPU Id used to run the first pipeline (default 0), (cpuIdPipeline[ii] = CPU Id, or cpuIdPipeline[ii] = CPU Id + ii if multi-core enabled)
+    -t                     Enables multi-core threading
+    -g  GPU Id             GPU Id used to run all the pipelines
+    -r  # of iterations    Number of run iterations to run (set to 1 internally for power measurements mode -P)
+    -w  delayUs            Set the GPU delay before running each pattern in microseconds (default: 10000)
+    -b                     Option to print codeblock errors
+    -l                     Force separate LDPC kernels, one per transport block, for PDSCH
+    -k                     Reference check for PDSCH (can also be enabled by --c PDSCH)
+    -S  <streams>          Number of streams per worker
+    -I  <iterations>       Number of iterations per stream
+    -B                     Enable PUSCH cascade (PUSCH2 must wait unitl PUSCH1 finishes) for DDDSUUDDDD (u5/u6) (default disabled) 
+    -C  <contexts>         Number of contexts 
+    -P  <iterations>       if > 0 enables power measurement mode (default: disabled). When enabled, min iteration count forced to 100)
+    -W  <delay (us)>       Inter slot pattern workload delay in microseconds for power measurement mode (default: 30)
+    -L                     Force selection of throughput mode for PUSCH LDPC decoder
+    -K                     LDPC kernel launch mode: -K 0, uses single stream using driver api (default);-K 1, uses multi-stream launch;
+                           -K 2, uses single-stream launch via tensor interface; -K 3, single stream opt;
+                           Note: option '-K' will be ignored if graph mode selected.
+    --H                    Use half precision (FP16) for back-end
+    --U                    Enable context for PUSCH
+    --D                    Enable context for PDSCH
+    --P                    Use separate context for PRACH
+    --Q                    Use separate context for PDCCH
+    --X                    Use separate context for PUCCH
+    --B                    Use separate context for SSB
+    --Z                    Use separate context for SRS
+    --S                    Split SRS: run first half of SRS cells at the beginning and the remaining half after PUSCH
+    --G                    Group together all PDSCH cells in a context in a slot and execute via single PDSCH pipeline object; same for PDCCH if present
+    --g                    Group together all PUSCH cells in a context in a slot and execute via single PUSCH pipeline object; same for PUCCH and PRACH if present
+    --T                    Enable first cuMAC workload (first cuMAC always runs in a separate context)
+    --V                    Enable second cuMAC workload (second cuMAC always runs in a separate context)
+    --R                    Use internal timer for cuMAC workload (otherwise use PDSCH timer)
+    --M <ctx1,..,ctxtN>    Max number of SMs used per context in comma separated list. Order is as follows: [PRACH if --P], [PDCCH if --Q], [PUCCH if --X], PDSCH, PUSCH, [SSB if SSB TVs exist in yaml], [SRS if --Z], [MAC if --T] 
+    --k                    Reference check for PDCCH (can also be enabled by --c PDCCH)
+    --c <ch_name_1,...,ch_name_N> enable reference checks for channels whose names are provided as a comma separated list
+    --b                    [Deprecated] Inter-cell batching for PDSCH. No effect as inter-cell batching is always enabled with --G
+    -n                     Use green contexts
+13:09:33.865524 CON 2544940 0 [NVLOG.CPP] Using /workspace/aerial-cuda-accelerated-ran/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+13:09:33.930866 CON 2544940 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+13:09:33.931508 ERR 2544940 0 [AERIAL_TESTBENCH_EVENT] [TESTBENCH] ERROR: nCtxts = 0, no subcontexts are defined, please check input arguments

@@ -1,0 +1,1340 @@
+{
+  "validation_timestamp": "2026-01-20T00:57:59.791747",
+  "deadline_us": 500,
+  "test_config": {
+    "cfld": "../build",
+    "vfld": "/workspace/aerial-cuda-accelerated-ran/testVectors",
+    "config": "testcases_avg_F08.json",
+    "uc": "uc_avg_F08_TDD.json",
+    "target": [
+      "60",
+      "60"
+    ],
+    "delay": 0,
+    "gpu": 0,
+    "freq": 1500,
+    "is_graph": true,
+    "start": 1,
+    "cap": 16,
+    "step_size": 1,
+    "iterations": 1,
+    "sweeps": 80,
+    "power": null,
+    "subs": null,
+    "force": null,
+    "is_priority": false,
+    "mig": null,
+    "mig_instances": 1,
+    "is_no_mps": false,
+    "seed": null,
+    "is_power": false,
+    "is_test": false,
+    "is_debug": false,
+    "debug_mode": "cta",
+    "is_rec_bf": false,
+    "is_prach": false,
+    "is_isolated_prach": false,
+    "is_ssb": false,
+    "is_csirs": false,
+    "prach_tgt": null,
+    "is_pdcch": false,
+    "is_isolated_pdcch": false,
+    "is_pucch": false,
+    "is_isolated_pucch": false,
+    "is_unsafe": false,
+    "is_groups_pdsch": false,
+    "is_pack_pdsch": false,
+    "is_groups_pusch": false,
+    "is_no_pusch": false,
+    "is_no_pdsch": false,
+    "is_check_traffic": false,
+    "numa": null,
+    "is_2_cb_per_sm": false,
+    "pattern": "dddsuudddd",
+    "is_save_buffers": true,
+    "is_pusch_cascaded": false,
+    "triage_start": null,
+    "triage_end": null,
+    "triage_sample": 1024,
+    "is_ldpc_parallel": false,
+    "is_srs_isolate": false,
+    "is_ssb_isolate": false,
+    "is_mac": false,
+    "mac2": 0,
+    "is_mac_timer": false,
+    "is_GH200": false,
+    "is_use_green_contexts": false,
+    "is_enable_mps_for_green_contexts": false,
+    "pusch_subslot_proc": "0",
+    "pattern_len": 8,
+    "gpuName": "NVIDIA H100 NVL",
+    "smAllocation": "[np.int64(60), np.int64(60)]"
+  },
+  "summary": {
+    "total_slots": 1600,
+    "total_violations": 366,
+    "overall_pass": false,
+    "capacity_500us": 1
+  },
+  "per_cell_results": {
+    "1": {
+      "cell_count": 1,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 0,
+          "ontime_pct": 100.0,
+          "pass": true,
+          "stats": {
+            "avg_us": 39.1,
+            "std_us": 9.8,
+            "min_us": 33.21,
+            "max_us": 82.4,
+            "p50_us": 35.49,
+            "p95_us": 57.91,
+            "p99_us": 82.18
+          },
+          "violation_latencies": []
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 0,
+          "ontime_pct": 100.0,
+          "pass": true,
+          "stats": {
+            "avg_us": 218.18,
+            "std_us": 14.42,
+            "min_us": 187.88,
+            "max_us": 240.71,
+            "p50_us": 222.04,
+            "p95_us": 235.51,
+            "p99_us": 239.67
+          },
+          "violation_latencies": []
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 0,
+          "ontime_pct": 100.0,
+          "pass": true,
+          "stats": {
+            "avg_us": 160.42,
+            "std_us": 3.38,
+            "min_us": 153.98,
+            "max_us": 166.47,
+            "p50_us": 159.76,
+            "p95_us": 166.05,
+            "p99_us": 166.39
+          },
+          "violation_latencies": []
+        }
+      },
+      "all_pass": true,
+      "total_slots": 100,
+      "total_violations": 0
+    },
+    "2": {
+      "cell_count": 2,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 0,
+          "ontime_pct": 100.0,
+          "pass": true,
+          "stats": {
+            "avg_us": 64.83,
+            "std_us": 43.42,
+            "min_us": 41.85,
+            "max_us": 297.89,
+            "p50_us": 53.65,
+            "p95_us": 172.85,
+            "p99_us": 231.51
+          },
+          "violation_latencies": []
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 3,
+          "ontime_pct": 70.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 469.52,
+            "std_us": 161.09,
+            "min_us": 337.76,
+            "max_us": 797.79,
+            "p50_us": 389.63,
+            "p95_us": 773.17,
+            "p99_us": 792.87
+          },
+          "violation_latencies": [
+            797.79,
+            743.07,
+            549.02
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 0,
+          "ontime_pct": 100.0,
+          "pass": true,
+          "stats": {
+            "avg_us": 197.5,
+            "std_us": 5.36,
+            "min_us": 192.41,
+            "max_us": 211.49,
+            "p50_us": 195.77,
+            "p95_us": 206.58,
+            "p99_us": 210.51
+          },
+          "violation_latencies": []
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 3
+    },
+    "3": {
+      "cell_count": 3,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 0,
+          "ontime_pct": 100.0,
+          "pass": true,
+          "stats": {
+            "avg_us": 77.46,
+            "std_us": 51.42,
+            "min_us": 53.18,
+            "max_us": 299.2,
+            "p50_us": 61.36,
+            "p95_us": 169.6,
+            "p99_us": 297.94
+          },
+          "violation_latencies": []
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 7,
+          "ontime_pct": 30.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 642.26,
+            "std_us": 192.21,
+            "min_us": 480.99,
+            "max_us": 1014.66,
+            "p50_us": 516.05,
+            "p95_us": 982.42,
+            "p99_us": 1008.21
+          },
+          "violation_latencies": [
+            1014.6600000000001,
+            943.01,
+            756.5699999999999,
+            708.87,
+            525.1899999999999,
+            506.90999999999997,
+            503.01
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 0,
+          "ontime_pct": 100.0,
+          "pass": true,
+          "stats": {
+            "avg_us": 242.57,
+            "std_us": 5.14,
+            "min_us": 236.22,
+            "max_us": 250.18,
+            "p50_us": 241.49,
+            "p95_us": 250.14,
+            "p99_us": 250.17
+          },
+          "violation_latencies": []
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 7
+    },
+    "4": {
+      "cell_count": 4,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 1,
+          "ontime_pct": 98.75,
+          "pass": false,
+          "stats": {
+            "avg_us": 106.97,
+            "std_us": 94.19,
+            "min_us": 61.28,
+            "max_us": 598.04,
+            "p50_us": 70.61,
+            "p95_us": 347.77,
+            "p99_us": 456.8
+          },
+          "violation_latencies": [
+            598.04
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 747.83,
+            "std_us": 243.18,
+            "min_us": 607.68,
+            "max_us": 1447.14,
+            "p50_us": 643.6,
+            "p95_us": 1178.36,
+            "p99_us": 1393.38
+          },
+          "violation_latencies": [
+            1447.14,
+            849.86,
+            742.4000000000001,
+            652.3499999999999,
+            646.9399999999999,
+            640.25,
+            635.6500000000001,
+            633.89,
+            622.12,
+            607.6800000000001
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 0,
+          "ontime_pct": 100.0,
+          "pass": true,
+          "stats": {
+            "avg_us": 302.36,
+            "std_us": 18.37,
+            "min_us": 285.32,
+            "max_us": 352.38,
+            "p50_us": 296.29,
+            "p95_us": 334.31,
+            "p99_us": 348.77
+          },
+          "violation_latencies": []
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 11
+    },
+    "5": {
+      "cell_count": 5,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 2,
+          "ontime_pct": 97.5,
+          "pass": false,
+          "stats": {
+            "avg_us": 145.47,
+            "std_us": 134.79,
+            "min_us": 72.1,
+            "max_us": 761.41,
+            "p50_us": 82.88,
+            "p95_us": 435.27,
+            "p99_us": 583.76
+          },
+          "violation_latencies": [
+            761.41,
+            536.5400000000001
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 811.62,
+            "std_us": 321.84,
+            "min_us": 598.24,
+            "max_us": 1580.29,
+            "p50_us": 651.92,
+            "p95_us": 1448.88,
+            "p99_us": 1554.01
+          },
+          "violation_latencies": [
+            1580.29,
+            1288.26,
+            781.1800000000001,
+            690.76,
+            660.45,
+            643.39,
+            635.58,
+            632.3199999999999,
+            605.72,
+            598.24
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 0,
+          "ontime_pct": 100.0,
+          "pass": true,
+          "stats": {
+            "avg_us": 370.96,
+            "std_us": 37.4,
+            "min_us": 333.89,
+            "max_us": 470.59,
+            "p50_us": 353.94,
+            "p95_us": 433.78,
+            "p99_us": 463.23
+          },
+          "violation_latencies": []
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 12
+    },
+    "6": {
+      "cell_count": 6,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 9,
+          "ontime_pct": 88.75,
+          "pass": false,
+          "stats": {
+            "avg_us": 186.4,
+            "std_us": 172.12,
+            "min_us": 78.81,
+            "max_us": 868.7,
+            "p50_us": 95.15,
+            "p95_us": 540.44,
+            "p99_us": 741.64
+          },
+          "violation_latencies": [
+            868.7,
+            707.87,
+            603.11,
+            550.5000000000001,
+            539.9100000000001,
+            532.6399999999999,
+            521.4699999999998,
+            520.6400000000003,
+            504.58000000000015
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 883.07,
+            "std_us": 35.19,
+            "min_us": 845.31,
+            "max_us": 968.16,
+            "p50_us": 880.04,
+            "p95_us": 942.85,
+            "p99_us": 963.1
+          },
+          "violation_latencies": [
+            968.1600000000001,
+            911.9100000000001,
+            893.1800000000001,
+            890.3,
+            880.13,
+            879.9399999999999,
+            864.26,
+            849.2800000000001,
+            848.19,
+            845.3100000000001
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 1,
+          "ontime_pct": 90.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 474.27,
+            "std_us": 70.79,
+            "min_us": 426.56,
+            "max_us": 681.25,
+            "p50_us": 455.92,
+            "p95_us": 588.32,
+            "p99_us": 662.67
+          },
+          "violation_latencies": [
+            681.25
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 20
+    },
+    "7": {
+      "cell_count": 7,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 10,
+          "ontime_pct": 87.5,
+          "pass": false,
+          "stats": {
+            "avg_us": 216.47,
+            "std_us": 197.69,
+            "min_us": 87.46,
+            "max_us": 1028.32,
+            "p50_us": 106.22,
+            "p95_us": 616.92,
+            "p99_us": 780.07
+          },
+          "violation_latencies": [
+            1028.32,
+            714.0799999999999,
+            684.4099999999999,
+            623.0400000000001,
+            616.5999999999999,
+            614.02,
+            612.7300000000005,
+            603.5899999999997,
+            597.4400000000005,
+            589.73
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1004.03,
+            "std_us": 65.25,
+            "min_us": 952.93,
+            "max_us": 1191.36,
+            "p50_us": 991.98,
+            "p95_us": 1109.73,
+            "p99_us": 1175.03
+          },
+          "violation_latencies": [
+            1191.36,
+            1009.9499999999999,
+            1004.3199999999999,
+            1001.6299999999999,
+            992.4799999999999,
+            991.4900000000001,
+            970.2,
+            966.56,
+            959.3599999999999,
+            952.93
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 9,
+          "ontime_pct": 10.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 584.05,
+            "std_us": 187.36,
+            "min_us": 489.15,
+            "max_us": 1142.92,
+            "p50_us": 527.76,
+            "p95_us": 882.2,
+            "p99_us": 1090.78
+          },
+          "violation_latencies": [
+            1142.9200000000003,
+            563.55,
+            534.9399999999998,
+            534.5899999999999,
+            532.1300000000001,
+            523.3900000000001,
+            510.3700000000001,
+            508.5799999999999,
+            500.8600000000001
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 29
+    },
+    "8": {
+      "cell_count": 8,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 1,
+          "ontime_pct": 98.75,
+          "pass": false,
+          "stats": {
+            "avg_us": 141.03,
+            "std_us": 75.11,
+            "min_us": 98.3,
+            "max_us": 563.72,
+            "p50_us": 113.09,
+            "p95_us": 310.35,
+            "p99_us": 385.04
+          },
+          "violation_latencies": [
+            563.72
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 947.53,
+            "std_us": 43.47,
+            "min_us": 888.93,
+            "max_us": 1045.21,
+            "p50_us": 940.4,
+            "p95_us": 1020.55,
+            "p99_us": 1040.28
+          },
+          "violation_latencies": [
+            1045.21,
+            990.4000000000001,
+            969.0899999999999,
+            953.15,
+            946.3399999999999,
+            934.4600000000002,
+            932.54,
+            908.77,
+            906.43,
+            888.93
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 593.35,
+            "std_us": 111.74,
+            "min_us": 531.42,
+            "max_us": 925.47,
+            "p50_us": 554.79,
+            "p95_us": 771.03,
+            "p99_us": 894.58
+          },
+          "violation_latencies": [
+            925.47,
+            582.28,
+            581.3799999999999,
+            563.0999999999999,
+            555.75,
+            553.8200000000002,
+            551.3599999999999,
+            547.26,
+            541.7,
+            531.4200000000001
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 21
+    },
+    "9": {
+      "cell_count": 9,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 3,
+          "ontime_pct": 96.25,
+          "pass": false,
+          "stats": {
+            "avg_us": 185.71,
+            "std_us": 131.8,
+            "min_us": 112.39,
+            "max_us": 799.11,
+            "p50_us": 126.55,
+            "p95_us": 476.53,
+            "p99_us": 588.55
+          },
+          "violation_latencies": [
+            799.11,
+            532.5799999999999,
+            500.9000000000001
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1263.4,
+            "std_us": 592.9,
+            "min_us": 940.22,
+            "max_us": 2460.83,
+            "p50_us": 976.28,
+            "p95_us": 2450.02,
+            "p99_us": 2458.67
+          },
+          "violation_latencies": [
+            2460.83,
+            2436.7999999999997,
+            986.3100000000001,
+            985.73,
+            982.7199999999999,
+            969.8300000000002,
+            962.27,
+            954.66,
+            954.5899999999999,
+            940.2200000000001
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 624.37,
+            "std_us": 18.66,
+            "min_us": 605.12,
+            "max_us": 665.85,
+            "p50_us": 618.1,
+            "p95_us": 656.54,
+            "p99_us": 663.99
+          },
+          "violation_latencies": [
+            665.8499999999999,
+            645.1600000000001,
+            636.52,
+            627.6800000000003,
+            619.2300000000002,
+            616.96,
+            611.8400000000001,
+            609.2499999999998,
+            606.1100000000001,
+            605.1200000000001
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 23
+    },
+    "10": {
+      "cell_count": 10,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 8,
+          "ontime_pct": 90.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 228.79,
+            "std_us": 225.16,
+            "min_us": 116.41,
+            "max_us": 1309.12,
+            "p50_us": 137.48,
+            "p95_us": 784.68,
+            "p99_us": 964.62
+          },
+          "violation_latencies": [
+            1309.12,
+            873.0500000000002,
+            835.0999999999999,
+            793.9499999999998,
+            784.19,
+            779.9699999999993,
+            774.5900000000001,
+            754.75
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1348.43,
+            "std_us": 421.97,
+            "min_us": 1098.78,
+            "max_us": 2511.36,
+            "p50_us": 1140.7,
+            "p95_us": 2113.2,
+            "p99_us": 2431.73
+          },
+          "violation_latencies": [
+            2511.3599999999997,
+            1626.5600000000002,
+            1444.5100000000002,
+            1174.1399999999999,
+            1140.73,
+            1140.6799999999998,
+            1126.85,
+            1118.0500000000002,
+            1102.66,
+            1098.7800000000002
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 895.02,
+            "std_us": 453.2,
+            "min_us": 650.15,
+            "max_us": 1924.16,
+            "p50_us": 668.7,
+            "p95_us": 1805.9,
+            "p99_us": 1900.51
+          },
+          "violation_latencies": [
+            1924.1599999999999,
+            1661.35,
+            727.0699999999997,
+            684.9299999999998,
+            668.9900000000002,
+            668.4100000000001,
+            659.3899999999999,
+            654.8799999999999,
+            650.8799999999999,
+            650.1499999999999
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 28
+    },
+    "11": {
+      "cell_count": 11,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 24,
+          "ontime_pct": 70.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 330.64,
+            "std_us": 261.83,
+            "min_us": 127.68,
+            "max_us": 1326.66,
+            "p50_us": 158.03,
+            "p95_us": 829.35,
+            "p99_us": 955.75
+          },
+          "violation_latencies": [
+            1326.66,
+            857.15,
+            856.26,
+            830.6600000000001,
+            829.2800000000002,
+            815.0999999999995,
+            795.3000000000002,
+            790.0799999999999,
+            772.48,
+            759.2300000000005
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1268.94,
+            "std_us": 144.23,
+            "min_us": 1171.43,
+            "max_us": 1623.52,
+            "p50_us": 1217.52,
+            "p95_us": 1553.54,
+            "p99_us": 1609.52
+          },
+          "violation_latencies": [
+            1623.52,
+            1468.0,
+            1233.1599999999999,
+            1220.99,
+            1220.2199999999998,
+            1214.82,
+            1182.3,
+            1180.96,
+            1173.95,
+            1171.43
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 826.81,
+            "std_us": 296.0,
+            "min_us": 678.37,
+            "max_us": 1709.66,
+            "p50_us": 725.82,
+            "p95_us": 1298.66,
+            "p99_us": 1627.46
+          },
+          "violation_latencies": [
+            1709.6600000000003,
+            796.3199999999997,
+            767.0999999999999,
+            737.25,
+            732.96,
+            718.6899999999998,
+            717.1500000000001,
+            713.03,
+            697.6000000000001,
+            678.3700000000001
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 44
+    },
+    "12": {
+      "cell_count": 12,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 17,
+          "ontime_pct": 78.75,
+          "pass": false,
+          "stats": {
+            "avg_us": 345.75,
+            "std_us": 312.89,
+            "min_us": 143.61,
+            "max_us": 1685.09,
+            "p50_us": 175.57,
+            "p95_us": 1036.17,
+            "p99_us": 1201.38
+          },
+          "violation_latencies": [
+            1685.0900000000001,
+            1072.8000000000002,
+            1051.5899999999997,
+            1047.4600000000003,
+            1035.58,
+            998.7199999999993,
+            997.25,
+            970.0100000000002,
+            944.6999999999999,
+            702.6600000000001
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1385.7,
+            "std_us": 251.06,
+            "min_us": 1272.71,
+            "max_us": 2134.56,
+            "p50_us": 1299.26,
+            "p95_us": 1787.27,
+            "p99_us": 2065.1
+          },
+          "violation_latencies": [
+            2134.5600000000004,
+            1362.81,
+            1329.3799999999999,
+            1315.5800000000002,
+            1301.21,
+            1297.31,
+            1296.6799999999998,
+            1273.98,
+            1272.73,
+            1272.71
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 946.31,
+            "std_us": 445.89,
+            "min_us": 764.77,
+            "max_us": 2279.72,
+            "p50_us": 788.43,
+            "p95_us": 1655.39,
+            "p99_us": 2154.85
+          },
+          "violation_latencies": [
+            2279.7200000000003,
+            892.3199999999999,
+            821.73,
+            804.5999999999999,
+            792.0299999999997,
+            784.8300000000002,
+            784.03,
+            771.0399999999997,
+            768.04,
+            764.7699999999998
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 37
+    },
+    "13": {
+      "cell_count": 13,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 1,
+          "ontime_pct": 98.75,
+          "pass": false,
+          "stats": {
+            "avg_us": 208.39,
+            "std_us": 82.92,
+            "min_us": 151.07,
+            "max_us": 610.94,
+            "p50_us": 172.58,
+            "p95_us": 393.74,
+            "p99_us": 486.79
+          },
+          "violation_latencies": [
+            610.94
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1521.27,
+            "std_us": 349.72,
+            "min_us": 1364.23,
+            "max_us": 2565.85,
+            "p50_us": 1402.56,
+            "p95_us": 2070.23,
+            "p99_us": 2466.73
+          },
+          "violation_latencies": [
+            2565.85,
+            1464.48,
+            1451.59,
+            1431.58,
+            1405.5,
+            1399.62,
+            1385.4699999999998,
+            1375.74,
+            1368.6399999999999,
+            1364.23
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1019.86,
+            "std_us": 451.64,
+            "min_us": 835.2,
+            "max_us": 2370.75,
+            "p50_us": 862.64,
+            "p95_us": 1739.11,
+            "p99_us": 2244.42
+          },
+          "violation_latencies": [
+            2370.75,
+            967.1100000000001,
+            874.9799999999998,
+            874.8799999999999,
+            872.0,
+            853.28,
+            852.1299999999999,
+            849.3699999999999,
+            848.9300000000001,
+            835.1999999999998
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 21
+    },
+    "14": {
+      "cell_count": 14,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 24,
+          "ontime_pct": 70.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 433.43,
+            "std_us": 367.81,
+            "min_us": 163.07,
+            "max_us": 1867.56,
+            "p50_us": 205.25,
+            "p95_us": 1107.36,
+            "p99_us": 1400.39
+          },
+          "violation_latencies": [
+            1867.5600000000002,
+            1276.2,
+            1204.8599999999997,
+            1139.97,
+            1105.64,
+            1097.9199999999992,
+            1070.37,
+            1063.04,
+            1057.8599999999997,
+            1003.460000000001
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1828.7,
+            "std_us": 726.4,
+            "min_us": 1403.61,
+            "max_us": 3325.6,
+            "p50_us": 1429.06,
+            "p95_us": 3277.69,
+            "p99_us": 3316.02
+          },
+          "violation_latencies": [
+            3325.6,
+            3219.13,
+            1647.39,
+            1582.94,
+            1429.7900000000002,
+            1428.32,
+            1420.1599999999999,
+            1416.8700000000001,
+            1413.22,
+            1403.61
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 958.49,
+            "std_us": 81.85,
+            "min_us": 886.08,
+            "max_us": 1153.44,
+            "p50_us": 917.73,
+            "p95_us": 1103.17,
+            "p99_us": 1143.39
+          },
+          "violation_latencies": [
+            1153.4399999999996,
+            1041.7199999999998,
+            1010.1799999999998,
+            960.5799999999999,
+            926.02,
+            909.4400000000003,
+            908.0300000000002,
+            896.0700000000002,
+            893.3700000000001,
+            886.0800000000002
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 44
+    },
+    "15": {
+      "cell_count": 15,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 9,
+          "ontime_pct": 88.75,
+          "pass": false,
+          "stats": {
+            "avg_us": 333.4,
+            "std_us": 325.24,
+            "min_us": 172.57,
+            "max_us": 1893.73,
+            "p50_us": 198.7,
+            "p95_us": 1148.7,
+            "p99_us": 1365.78
+          },
+          "violation_latencies": [
+            1893.73,
+            1225.4400000000005,
+            1205.0500000000002,
+            1199.58,
+            1146.0200000000004,
+            1133.8599999999997,
+            1128.7299999999996,
+            1077.5100000000002,
+            599.1999999999999
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1870.0,
+            "std_us": 628.11,
+            "min_us": 1512.58,
+            "max_us": 3302.56,
+            "p50_us": 1558.8,
+            "p95_us": 3132.28,
+            "p99_us": 3268.5
+          },
+          "violation_latencies": [
+            3302.56,
+            2924.16,
+            1629.48,
+            1583.14,
+            1560.8600000000001,
+            1556.73,
+            1556.58,
+            1541.38,
+            1532.51,
+            1512.58
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1148.54,
+            "std_us": 334.68,
+            "min_us": 977.7,
+            "max_us": 2130.81,
+            "p50_us": 1021.86,
+            "p95_us": 1729.23,
+            "p99_us": 2050.49
+          },
+          "violation_latencies": [
+            2130.8099999999995,
+            1238.4000000000005,
+            1052.5500000000002,
+            1026.69,
+            1023.7799999999997,
+            1019.94,
+            1011.4199999999996,
+            1010.02,
+            994.1399999999999,
+            977.6999999999998
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 29
+    },
+    "16": {
+      "cell_count": 16,
+      "channels": {
+        "PDSCH": {
+          "total_slots": 80,
+          "violations": 17,
+          "ontime_pct": 78.75,
+          "pass": false,
+          "stats": {
+            "avg_us": 430.59,
+            "std_us": 393.96,
+            "min_us": 181.21,
+            "max_us": 2075.07,
+            "p50_us": 212.09,
+            "p95_us": 1272.52,
+            "p99_us": 1544.59
+          },
+          "violation_latencies": [
+            2075.07,
+            1403.58,
+            1333.9900000000002,
+            1320.23,
+            1270.0099999999993,
+            1268.2600000000002,
+            1229.3199999999997,
+            1194.2399999999998,
+            1151.0699999999997,
+            984.3499999999999
+          ]
+        },
+        "PUSCH1": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 2179.4,
+            "std_us": 1059.89,
+            "min_us": 1617.57,
+            "max_us": 5014.11,
+            "p50_us": 1678.84,
+            "p95_us": 4231.41,
+            "p99_us": 4857.57
+          },
+          "violation_latencies": [
+            5014.11,
+            3274.7799999999997,
+            1918.14,
+            1705.18,
+            1692.1899999999998,
+            1665.5,
+            1648.04,
+            1640.0,
+            1618.53,
+            1617.5700000000002
+          ]
+        },
+        "PUSCH2": {
+          "total_slots": 10,
+          "violations": 10,
+          "ontime_pct": 0.0,
+          "pass": false,
+          "stats": {
+            "avg_us": 1395.11,
+            "std_us": 637.98,
+            "min_us": 1059.14,
+            "max_us": 3042.02,
+            "p50_us": 1090.33,
+            "p95_us": 2652.89,
+            "p99_us": 2964.19
+          },
+          "violation_latencies": [
+            3042.0200000000004,
+            2177.2799999999997,
+            1163.9,
+            1117.02,
+            1100.6,
+            1080.06,
+            1074.4,
+            1070.65,
+            1066.0500000000002,
+            1059.1399999999999
+          ]
+        }
+      },
+      "all_pass": false,
+      "total_slots": 100,
+      "total_violations": 37
+    }
+  }
+}

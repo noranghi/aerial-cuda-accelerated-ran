@@ -1,0 +1,1672 @@
+=== 2026-01-26 15:29:03 ===
+top - 15:29:03 up 41 days,  4:26,  4 users,  load average: 1.87, 1.28, 1.40
+Tasks: 1931 total,   2 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  1.1 sy,  0.0 ni, 98.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226200.3 free,  24808.3 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485731.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1737490 root      20   0 1830340  37888  29696 R  52.2   0.0   0:00.12 calico-+
+1737463 dclcom57  20   0   16740   5120   3072 R  34.8   0.0   0:00.14 top
+ 585595 root      20   0   62.2g 513808  57344 S  21.7   0.1   7:28.56 node
+1737455 dclcom57  20   0  187156  20480   6144 S  17.4   0.0   0:00.09 nvidia-+
+1737456 dclcom57  20   0  334660  20480   6144 S  13.0   0.0   0:00.07 nvidia-+
+ 163785 root      20   0       0      0      0 I   4.3   0.0   0:01.24 kworker+
+ 585516 root      20   0 1132600  58488  47104 S   4.3   0.0   0:03.26 node
+1112290 root      20   0   92.8g 396636  57344 S   4.3   0.1   9:39.77 node
+1125015 root      20   0    3244   1024   1024 S   4.3   0.0   0:31.66 tail
+1439335 avahi     20   0   11520   4096   3072 S   4.3   0.0  96:32.84 avahi-d+
+1722228 root      20   0       0      0      0 I   4.3   0.0   0:00.14 kworker+
+2667045 root      20   0    4264   1024   1024 S   4.3   0.0  13:22.69 runsv
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+
+=== 2026-01-26 15:29:04 ===
+top - 15:29:04 up 41 days,  4:26,  4 users,  load average: 1.87, 1.28, 1.40
+Tasks: 1931 total,   3 running, 1928 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  0.7 sy,  0.0 ni, 98.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226205.6 free,  24803.1 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485736.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1737606 root      20   0       0      0      0 R  69.6   0.0   0:00.16 calico-+
+2670268 root      20   0 5278504  46392  31744 S  34.8   0.0  19:43.25 contain+
+1737585 dclcom57  20   0   16740   5120   3072 R  30.4   0.0   0:00.13 top
+   2071 root      20   0  337916  13312  12288 S   8.7   0.0 271:40.76 Network+
+2493170 root      20   0   11.7g 503036  44032 S   8.7   0.1  30:56.16 node
+1112016 dclcom57  20   0 2882768  24576  17408 S   4.3   0.0   0:10.40 docker
+1439335 avahi     20   0   11520   4096   3072 S   4.3   0.0  96:32.85 avahi-d+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:05 ===
+top - 15:29:06 up 41 days,  4:26,  4 users,  load average: 1.87, 1.28, 1.40
+Tasks: 1932 total,   3 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.2 us,  0.8 sy,  0.0 ni, 98.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226216.8 free,  24792.0 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485748.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1737738 root      20   0 1755840  40960  31744 R  52.2   0.0   0:00.12 calico-+
+1737747 root      20   0 1607288  32768  26624 R  30.4   0.0   0:00.07 calico-+
+1737715 dclcom57  20   0   16740   5120   3072 R  26.1   0.0   0:00.12 top
+     17 root      20   0       0      0      0 I   4.3   0.0 152:31.91 rcu_pre+
+   2071 root      20   0  337916  13312  12288 S   4.3   0.0 271:40.77 Network+
+1680112 dclcom57  20   0   83.4g 366348  54272 S   4.3   0.1   0:59.92 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:07 ===
+top - 15:29:07 up 41 days,  4:26,  4 users,  load average: 1.87, 1.28, 1.40
+Tasks: 1930 total,   1 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  0.8 sy,  0.0 ni, 98.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226204.9 free,  24803.8 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485736.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1737832 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.13 top
+2140456 dclcom57  20   0 3916808  22528  16384 S   8.7   0.0   2:15.96 docker
+3759812 dclcom57  20   0 2883280  25600  18432 S   8.7   0.0   0:11.46 docker
+3761093 dclcom57  20   0 3031256  25600  18432 S   8.7   0.0   0:11.49 docker
+3761109 dclcom57  20   0 2957268  24576  17408 S   8.7   0.0   0:09.96 docker
+3761119 dclcom57  20   0 3104476  24576  17408 S   8.7   0.0   0:11.07 docker
+     17 root      20   0       0      0      0 I   4.3   0.0 152:31.92 rcu_pre+
+   2840 root      20   0    3244   1024   1024 S   4.3   0.0   0:32.80 tail
+ 585516 root      20   0 1132600  58488  47104 S   4.3   0.0   0:03.27 node
+1680112 dclcom57  20   0   83.4g 366348  54272 S   4.3   0.1   0:59.96 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:00.15 nvidia-+
+1737458 dclcom57  20   0   11284   1024   1024 S   4.3   0.0   0:00.01 monitor+
+2667047 root      20   0    4264   1024   1024 S   4.3   0.0  13:38.15 runsv
+
+=== 2026-01-26 15:29:08 ===
+top - 15:29:08 up 41 days,  4:26,  4 users,  load average: 1.96, 1.31, 1.40
+Tasks: 1930 total,   1 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.4 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226177.7 free,  24831.0 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485709.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1737969 dclcom57  20   0   16740   5120   3072 R  36.4   0.0   0:00.13 top
+1737455 dclcom57  20   0  187156  20480   6144 S  22.7   0.0   0:00.37 nvidia-+
+1679976 dclcom57  20   0   11.3g  98984  44032 S   9.1   0.0   0:14.48 node
+1680112 dclcom57  20   0   83.4g 365232  54272 S   4.5   0.1   0:59.99 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:00.17 nvidia-+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:09 ===
+top - 15:29:09 up 41 days,  4:26,  4 users,  load average: 1.96, 1.31, 1.40
+Tasks: 1930 total,   2 running, 1928 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  0.7 sy,  0.0 ni, 97.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226183.5 free,  24825.2 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485714.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1641622 dclcom57  20   0   83.0g 627804  57344 R 334.8   0.1   1:27.22 node
+1738073 dclcom57  20   0   16740   5120   3072 R  26.1   0.0   0:00.12 top
+   2071 root      20   0  337916  13312  12288 S   4.3   0.0 271:40.81 Network+
+   3106 root      20   0 9594040 131612  31712 S   4.3   0.0 402:42.72 dockerd
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:10 ===
+top - 15:29:11 up 41 days,  4:26,  4 users,  load average: 1.96, 1.31, 1.40
+Tasks: 1931 total,   2 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.5 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226223.1 free,  24785.6 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485754.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1738185 root      20   0 1608376  34816  26624 R  39.1   0.0   0:00.09 calico-+
+1738178 dclcom57  20   0   16740   5120   3072 R  34.8   0.0   0:00.13 top
+1641622 dclcom57  20   0   82.9g 614036  57344 S   4.3   0.1   1:28.01 node
+1679976 dclcom57  20   0   11.3g  98984  44032 S   4.3   0.0   0:14.53 node
+1680159 dclcom57  20   0   11.2g  74188  38912 S   4.3   0.0   0:16.39 node
+3754122 root      20   0    3244   1024   1024 S   4.3   0.0   0:28.18 tail
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:12 ===
+top - 15:29:12 up 41 days,  4:26,  4 users,  load average: 1.96, 1.31, 1.40
+Tasks: 1931 total,   2 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  0.7 sy,  0.0 ni, 98.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226223.6 free,  24785.1 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485754.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1738280 dclcom57  20   0   16740   5120   3072 R  31.8   0.0   0:00.12 top
+1738316 root      20   0 1607288  26624  22528 R  27.3   0.0   0:00.06 calico-+
+     17 root      20   0       0      0      0 I   4.5   0.0 152:31.96 rcu_pre+
+1680112 dclcom57  20   0   83.4g 364208  54272 S   4.5   0.1   1:00.12 node
+1713482 root      20   0   14.5g   3.3g  55296 S   4.5   0.7  19:19.06 node
+1713827 root      20   0 1516884  60620  47104 S   4.5   0.0  21:09.26 node
+1876349 root      20   0    3244   1024   1024 S   4.5   0.0   0:21.06 tail
+3879400 root      20   0    3244   1024   1024 S   4.5   0.0   0:04.48 tail
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+
+=== 2026-01-26 15:29:13 ===
+top - 15:29:13 up 41 days,  4:26,  4 users,  load average: 1.81, 1.29, 1.40
+Tasks: 1930 total,   1 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  1.2 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226178.0 free,  24830.8 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485709.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1738408 dclcom57  20   0   16740   5120   3072 R  34.8   0.0   0:00.13 top
+ 585595 root      20   0   62.2g 513808  57344 S  26.1   0.1   7:28.89 node
+1737455 dclcom57  20   0  187156  20480   6144 S  21.7   0.0   0:00.65 nvidia-+
+1680112 dclcom57  20   0   83.4g 364136  54272 S   8.7   0.1   1:00.18 node
+1679976 dclcom57  20   0   11.3g  98984  44032 S   4.3   0.0   0:14.61 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:00.28 nvidia-+
+2667051 root      20   0    4264   1024   1024 S   4.3   0.0  13:04.93 runsv
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:14 ===
+top - 15:29:15 up 41 days,  4:26,  4 users,  load average: 1.81, 1.29, 1.40
+Tasks: 1930 total,   1 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.5 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226200.5 free,  24808.2 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485731.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1738555 dclcom57  20   0   16740   5120   3072 R  27.3   0.0   0:00.12 top
+1461596 root      20   0       0      0      0 I   4.5   0.0   0:01.51 kworker+
+1641338 dclcom57  20   0  298680  19840  12288 S   4.5   0.0   0:03.39 code-c9+
+1680112 dclcom57  20   0   83.4g 364136  54272 S   4.5   0.1   1:00.21 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:00.31 nvidia-+
+3761541 root      20   0    3244   1024   1024 S   4.5   0.0   0:04.64 tail
+4143733 root      20   0       0      0      0 I   4.5   0.0   0:00.86 kworker+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:16 ===
+top - 15:29:16 up 41 days,  4:26,  4 users,  load average: 1.81, 1.29, 1.40
+Tasks: 1930 total,   1 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226232.1 free,  24776.7 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485763.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1738675 dclcom57  20   0   16740   5120   3072 R  34.8   0.0   0:00.13 top
+1679976 dclcom57  20   0   11.3g  98752  44032 S  21.7   0.0   0:14.70 node
+1680112 dclcom57  20   0   83.4g 364872  54272 S   8.7   0.1   1:00.80 node
+1439335 avahi     20   0   11520   4096   3072 S   4.3   0.0  96:32.89 avahi-d+
+1680159 dclcom57  20   0   11.2g  74188  38912 S   4.3   0.0   0:16.46 node
+2493314 root      20   0   11.2g  40960  40960 S   4.3   0.0  14:11.02 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:17 ===
+top - 15:29:17 up 41 days,  4:26,  4 users,  load average: 1.81, 1.29, 1.40
+Tasks: 1930 total,   1 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.4 sy,  0.0 ni, 99.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226251.4 free,  24757.4 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485782.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1738770 dclcom57  20   0   16740   5120   3072 R  31.8   0.0   0:00.12 top
+1112290 root      20   0   92.8g 380316  57344 S   4.5   0.1   9:40.52 node
+1679976 dclcom57  20   0   11.3g  99776  44032 S   4.5   0.0   0:14.77 node
+1680112 dclcom57  20   0   83.4g 364872  54272 S   4.5   0.1   1:00.85 node
+1680121 dclcom57  20   0   11.1g  56492  40960 S   4.5   0.0   0:02.32 node
+1680159 dclcom57  20   0   11.2g  74188  38912 S   4.5   0.0   0:16.47 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:00.36 nvidia-+
+4184936 root      20   0 1307308  60648  47104 S   4.5   0.0   3:58.00 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+
+=== 2026-01-26 15:29:18 ===
+top - 15:29:19 up 41 days,  4:27,  4 users,  load average: 1.74, 1.28, 1.39
+Tasks: 1932 total,   3 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.5 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226263.3 free,  24745.5 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485794.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680112 dclcom57  20   0   83.4g 364872  54272 S  36.4   0.1   1:00.98 node
+1738871 dclcom57  20   0   16740   5120   3072 R  31.8   0.0   0:00.12 top
+1737455 dclcom57  20   0  187156  20480   6144 S  22.7   0.0   0:00.93 nvidia-+
+1738873 root      20   0  792460  10240   9216 R   4.5   0.0   0:00.01 calico-+
+1738874 root      20   0  792460   9216   9216 R   4.5   0.0   0:00.01 calico-+
+3540023 root      20   0   11.4g 206908  52224 S   4.5   0.0   4:35.02 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:20 ===
+top - 15:29:20 up 41 days,  4:27,  4 users,  load average: 1.74, 1.28, 1.39
+Tasks: 1931 total,   2 running, 1929 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.5 us,  1.0 sy,  0.0 ni, 97.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226247.9 free,  24760.9 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485779.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1738966 dclcom57  20   0   16740   5120   3072 R  31.8   0.0   0:00.12 top
+1739020 root      20   0 1607032  28672  24576 R  27.3   0.0   0:00.06 calico-+
+1679976 dclcom57  20   0   11.3g  98736  44032 S   9.1   0.0   0:14.89 node
+     17 root      20   0       0      0      0 I   4.5   0.0 152:32.01 rcu_pre+
+1680112 dclcom57  20   0   83.4g 364872  54272 S   4.5   0.1   1:01.03 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:21 ===
+top - 15:29:21 up 41 days,  4:27,  4 users,  load average: 1.74, 1.28, 1.39
+Tasks: 1933 total,   2 running, 1931 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.5 us,  1.4 sy,  0.0 ni, 97.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226272.5 free,  24736.2 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485803.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1112290 root      20   0   92.8g 379148  57344 R  31.8   0.1   9:40.61 node
+1739108 dclcom57  20   0   16744   5120   3072 R  27.3   0.0   0:00.12 top
+1680121 dclcom57  20   0   11.1g  55864  40960 S  13.6   0.0   0:02.42 node
+1439335 avahi     20   0   11520   4096   3072 S   9.1   0.0  96:32.93 avahi-d+
+1679976 dclcom57  20   0   11.3g  98736  44032 S   9.1   0.0   0:14.98 node
+1680112 dclcom57  20   0   83.4g 364872  54272 S   9.1   0.1   1:01.06 node
+1737456 dclcom57  20   0  334660  20480   6144 S   9.1   0.0   0:00.44 nvidia-+
+     17 root      20   0       0      0      0 I   4.5   0.0 152:32.02 rcu_pre+
+   2071 root      20   0  337916  13312  12288 S   4.5   0.0 271:40.87 Network+
+1680159 dclcom57  20   0   11.2g  74188  38912 S   4.5   0.0   0:16.52 node
+3761158 root      20   0       0      0      0 I   4.5   0.0   0:03.68 kworker+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+
+=== 2026-01-26 15:29:22 ===
+top - 15:29:23 up 41 days,  4:27,  4 users,  load average: 1.74, 1.28, 1.39
+Tasks: 1933 total,   1 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.3 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226280.6 free,  24728.2 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485811.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1739285 dclcom57  20   0   16744   5120   3072 R  31.8   0.0   0:00.12 top
+3584130 dclcom57  20   0 3473904  24576  17408 S   9.1   0.0   1:24.29 docker
+3584241 dclcom57  20   0 3400684  24576  17408 S   9.1   0.0   1:19.44 docker
+3584254 dclcom57  20   0 3547380  24576  17408 S   9.1   0.0   1:12.25 docker
+1680112 dclcom57  20   0   83.4g 363712  54272 S   4.5   0.1   1:01.08 node
+2660996 root      20   0  769776  51288  32768 S   4.5   0.0  25:19.89 coredns
+3583000 dclcom57  20   0 3104476  26624  19456 S   4.5   0.0   1:05.43 docker
+3584122 dclcom57  20   0 3252516  23552  17408 S   4.5   0.0   1:05.58 docker
+3584140 dclcom57  20   0 3547892  25600  18432 S   4.5   0.0   1:22.99 docker
+3584181 dclcom57  20   0 3473136  26624  18432 S   4.5   0.0   1:09.35 docker
+3584219 dclcom57  20   0 3178720  26624  18432 S   4.5   0.0   1:11.46 docker
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+
+=== 2026-01-26 15:29:24 ===
+top - 15:29:24 up 41 days,  4:27,  4 users,  load average: 1.60, 1.26, 1.39
+Tasks: 1933 total,   2 running, 1931 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  1.0 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226268.9 free,  24739.9 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485800.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1739382 dclcom57  20   0   16740   5120   3072 R  30.4   0.0   0:00.13 top
+1737455 dclcom57  20   0  187156  20480   6144 S  26.1   0.0   0:01.21 nvidia-+
+1641622 dclcom57  20   0   82.9g 614036  57344 S  21.7   0.1   1:28.09 node
+1739394 dclcom57  20   0   11116   3072   3072 R  17.4   0.0   0:00.04 ls
+ 585595 root      20   0   62.2g 513808  57344 S  13.0   0.1   7:29.23 node
+   2071 root      20   0  337916  13312  12288 S   4.3   0.0 271:40.89 Network+
+1680112 dclcom57  20   0   83.4g 363712  54272 S   4.3   0.1   1:01.11 node
+1737458 dclcom57  20   0   11284   1024   1024 S   4.3   0.0   0:00.04 monitor+
+1739391 dclcom57  20   0    2892   1024   1024 S   4.3   0.0   0:00.01 sh
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:25 ===
+top - 15:29:25 up 41 days,  4:27,  4 users,  load average: 1.60, 1.26, 1.39
+Tasks: 1933 total,   1 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.3 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226262.9 free,  24745.9 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485794.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1739559 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.12 top
+1680112 dclcom57  20   0   83.4g 362440  54272 S   4.3   0.1   1:01.16 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:00.52 nvidia-+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+
+=== 2026-01-26 15:29:26 ===
+top - 15:29:27 up 41 days,  4:27,  4 users,  load average: 1.60, 1.26, 1.39
+Tasks: 1937 total,   2 running, 1935 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.4 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226275.4 free,  24733.4 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485806.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1739668 dclcom57  20   0   16744   5120   3072 R  27.3   0.0   0:00.11 top
+1739670 root      20   0 1459824  26624  22528 R  27.3   0.0   0:00.06 calico-+
+1655534 root      20   0       0      0      0 I   4.5   0.0   0:00.24 kworker+
+1679976 dclcom57  20   0   11.3g  98736  44032 S   4.5   0.0   0:15.03 node
+2458305 systemd+  20   0   14836   6144   6144 S   4.5   0.0  55:24.31 systemd+
+3754183 root      20   0    3244   1024   1024 S   4.5   0.0   0:28.34 tail
+3754232 root      20   0    3244   1024   1024 S   4.5   0.0   0:29.03 tail
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:28 ===
+top - 15:29:28 up 41 days,  4:27,  4 users,  load average: 1.63, 1.27, 1.39
+Tasks: 1934 total,   2 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.7 us,  1.3 sy,  0.0 ni, 97.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226227.5 free,  24781.2 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485758.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1739828 root      20   0 1829828  37888  29696 R  43.5   0.0   0:00.10 calico-+
+1739773 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.13 top
+ 585595 root      20   0   62.2g 513808  57344 S  17.4   0.1   7:29.33 node
+1112290 root      20   0   92.8g 378440  57344 S   8.7   0.1   9:40.99 node
+1124903 root      20   0    3244   1024   1024 S   4.3   0.0   0:31.61 tail
+1680159 dclcom57  20   0   11.2g  72920  38912 S   4.3   0.0   0:16.59 node
+1722228 root      20   0       0      0      0 I   4.3   0.0   0:00.16 kworker+
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:00.57 nvidia-+
+2493314 root      20   0   11.2g  40960  40960 S   4.3   0.0  14:11.04 node
+2667045 root      20   0    4264   1024   1024 S   4.3   0.0  13:22.73 runsv
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+
+=== 2026-01-26 15:29:29 ===
+top - 15:29:29 up 41 days,  4:27,  4 users,  load average: 1.63, 1.27, 1.39
+Tasks: 1933 total,   1 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.8 sy,  0.0 ni, 98.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226204.2 free,  24804.6 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485735.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1739922 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.13 top
+1737455 dclcom57  20   0  187156  20480   6144 S  26.1   0.0   0:01.49 nvidia-+
+1679976 dclcom57  20   0   11.3g  98596  44032 S   4.3   0.0   0:15.05 node
+1680112 dclcom57  20   0   83.4g 364488  54272 S   4.3   0.1   1:01.24 node
+2670268 root      20   0 5278504  46392  31744 S   4.3   0.0  19:43.30 contain+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:30 ===
+top - 15:29:30 up 41 days,  4:27,  4 users,  load average: 1.63, 1.27, 1.39
+Tasks: 1933 total,   1 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.3 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226214.9 free,  24793.9 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485746.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1740062 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.12 top
+1108736 dclcom57  20   0  293768   8192   8192 S   4.3   0.0   0:16.44 cursor-+
+1680112 dclcom57  20   0   83.4g 364484  54272 S   4.3   0.1   1:01.26 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+
+=== 2026-01-26 15:29:31 ===
+top - 15:29:32 up 41 days,  4:27,  4 users,  load average: 1.63, 1.27, 1.39
+Tasks: 1933 total,   2 running, 1931 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.3 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226215.5 free,  24793.2 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485746.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1740162 dclcom57  20   0   16744   5120   3072 R  31.8   0.0   0:00.12 top
+1679710 dclcom57  20   0   17840   7356   5120 S   4.5   0.0   0:00.72 sshd
+1680112 dclcom57  20   0   83.4g 364484  54272 S   4.5   0.1   1:01.29 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:00.65 nvidia-+
+2458305 systemd+  20   0   14836   6144   6144 S   4.5   0.0  55:24.32 systemd+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:33 ===
+top - 15:29:33 up 41 days,  4:27,  4 users,  load average: 1.58, 1.27, 1.39
+Tasks: 1933 total,   2 running, 1931 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.8 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226225.8 free,  24783.0 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485757.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680112 dclcom57  20   0   83.4g 365076  54272 R  45.5   0.1   1:01.42 node
+1740270 dclcom57  20   0   16744   5120   3072 R  31.8   0.0   0:00.12 top
+1108736 dclcom57  20   0  293768   8192   8192 S   4.5   0.0   0:16.45 cursor-+
+1112290 root      20   0   92.8g 377104  57344 S   4.5   0.1   9:41.23 node
+1439335 avahi     20   0   11520   4096   3072 S   4.5   0.0  96:33.00 avahi-d+
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:00.68 nvidia-+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:34 ===
+top - 15:29:34 up 41 days,  4:27,  4 users,  load average: 1.58, 1.27, 1.39
+Tasks: 1935 total,   2 running, 1933 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.7 sy,  0.0 ni, 98.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226217.5 free,  24791.3 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485748.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1740383 root      20   0 1830084  39936  31744 S  50.0   0.0   0:00.11 calico-+
+1740378 dclcom57  20   0   16744   5120   3072 R  36.4   0.0   0:00.13 top
+1737455 dclcom57  20   0  187156  20480   6144 S  31.8   0.0   0:01.77 nvidia-+
+1740389 root      20   0 1385580  29696  24576 R  27.3   0.0   0:00.06 calico-+
+2493170 root      20   0   11.7g 503036  44032 S   9.1   0.1  30:56.31 node
+1680112 dclcom57  20   0   83.4g 365864  54272 S   4.5   0.1   1:01.88 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:00.70 nvidia-+
+3879350 root      20   0    3244   1024   1024 S   4.5   0.0   0:04.49 tail
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+
+=== 2026-01-26 15:29:35 ===
+top - 15:29:36 up 41 days,  4:27,  4 users,  load average: 1.58, 1.27, 1.39
+Tasks: 1934 total,   2 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  1.1 sy,  0.0 ni, 97.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226194.8 free,  24813.9 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485726.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1740532 root      20   0 1903816  43008  32768 R  68.2   0.0   0:00.15 calico-+
+1740477 dclcom57  20   0   16744   5120   3072 R  31.8   0.0   0:00.12 top
+1112290 root      20   0   92.8g 377104  57344 S   4.5   0.1   9:41.24 node
+2667047 root      20   0    4264   1024   1024 S   4.5   0.0  13:38.20 runsv
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:37 ===
+top - 15:29:37 up 41 days,  4:27,  4 users,  load average: 1.58, 1.27, 1.39
+Tasks: 1932 total,   1 running, 1931 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.6 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226204.3 free,  24804.5 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485735.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1740633 dclcom57  20   0   16744   5120   3072 R  27.3   0.0   0:00.12 top
+   2865 root      20   0    3244   1024   1024 S   4.5   0.0   0:33.22 tail
+1712594 root      20   0 1238640  14256   8192 S   4.5   0.0   5:36.92 contain+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+
+=== 2026-01-26 15:29:38 ===
+top - 15:29:38 up 41 days,  4:27,  4 users,  load average: 1.46, 1.25, 1.38
+Tasks: 1933 total,   1 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.9 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226194.6 free,  24814.2 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485725.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1112290 root      20   0   92.8g 377752  57344 S  65.2   0.1   9:41.45 node
+1740757 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.13 top
+ 585595 root      20   0   62.2g 513808  57344 S  21.7   0.1   7:29.66 node
+   3106 root      20   0 9594040 131612  31712 S   4.3   0.0 402:42.78 dockerd
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:39 ===
+top - 15:29:40 up 41 days,  4:27,  4 users,  load average: 1.46, 1.25, 1.38
+Tasks: 1933 total,   2 running, 1931 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.5 sy,  0.0 ni, 98.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226201.1 free,  24807.7 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485732.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1740870 dclcom57  20   0   16744   5120   3072 R  31.8   0.0   0:00.13 top
+1737455 dclcom57  20   0  187156  20480   6144 R  22.7   0.0   0:02.03 nvidia-+
+1875999 dclcom57  20   0 3031256  25600  18432 S   9.1   0.0   0:48.45 docker
+1876250 dclcom57  20   0 3104988  24576  17408 S   9.1   0.0   0:47.64 docker
+1876450 dclcom57  20   0 3104988  27648  19456 S   9.1   0.0   0:52.63 docker
+1876455 dclcom57  20   0 3104732  25600  18432 S   9.1   0.0   0:45.41 docker
+1876463 dclcom57  20   0 3104732  25600  18432 S   9.1   0.0   0:44.01 docker
+1876497 dclcom57  20   0 3400940  26624  18432 S   9.1   0.0   0:52.89 docker
+1876520 dclcom57  20   0 3178464  24576  18432 S   9.1   0.0   0:52.20 docker
+1876537 dclcom57  20   0 3104988  24576  18432 S   9.1   0.0   0:52.06 docker
+1876556 dclcom57  20   0 3400684  24576  17408 S   9.1   0.0   0:52.46 docker
+1876583 dclcom57  20   0 3252196  24576  18432 S   9.1   0.0   0:49.85 docker
+1876290 dclcom57  20   0 3031000  25600  18432 S   4.5   0.0   0:52.00 docker
+
+=== 2026-01-26 15:29:41 ===
+top - 15:29:41 up 41 days,  4:27,  4 users,  load average: 1.46, 1.25, 1.38
+Tasks: 1933 total,   3 running, 1930 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.5 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226185.8 free,  24823.0 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485717.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1740968 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.13 top
+1737456 dclcom57  20   0  334660  20480   6144 S   8.7   0.0   0:00.84 nvidia-+
+1655534 root      20   0       0      0      0 I   4.3   0.0   0:00.26 kworker+
+1679976 dclcom57  20   0   11.3g  96096  44032 R   4.3   0.0   0:15.32 node
+1680112 dclcom57  20   0   83.4g 364840  54272 S   4.3   0.1   1:02.01 node
+1680159 dclcom57  20   0   11.2g  72920  38912 S   4.3   0.0   0:16.75 node
+2140929 root      20   0    3244   1024   1024 S   4.3   0.0   1:05.67 tail
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:42 ===
+top - 15:29:42 up 41 days,  4:27,  4 users,  load average: 1.46, 1.25, 1.38
+Tasks: 1935 total,   3 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.8 sy,  0.0 ni, 98.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226170.7 free,  24838.0 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485701.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1741065 dclcom57  20   0   16744   5120   3072 R  36.4   0.0   0:00.13 top
+1741097 root      20   0 1385644  29696  24576 R  27.3   0.0   0:00.06 calico-+
+     17 root      20   0       0      0      0 I   4.5   0.0 152:32.17 rcu_pre+
+1741113 root      20   0   83272   2048   2048 R   4.5   0.0   0:00.01 calico-+
+2667047 root      20   0    4264   1024   1024 S   4.5   0.0  13:38.21 runsv
+2670268 root      20   0 5278504  46392  31744 S   4.5   0.0  19:43.33 contain+
+4183584 root      20   0    2892   1024   1024 S   4.5   0.0   1:27.97 sh
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:43 ===
+top - 15:29:44 up 41 days,  4:27,  4 users,  load average: 1.34, 1.23, 1.37
+Tasks: 1934 total,   3 running, 1931 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.3 us,  0.9 sy,  0.0 ni, 97.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226156.8 free,  24852.0 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485688.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1741190 dclcom57  20   0   16744   5120   3072 R  34.8   0.0   0:00.13 top
+1741239 root      20   0 1459568  30720  25600 R  26.1   0.0   0:00.06 calico-+
+   2083 root      20   0   83384   3072   3072 S   8.7   0.0 115:15.73 irqbala+
+     17 root      20   0       0      0      0 I   4.3   0.0 152:32.18 rcu_pre+
+1679976 dclcom57  20   0   11.3g  97120  44032 S   4.3   0.0   0:15.43 node
+1680112 dclcom57  20   0   83.4g 363568  54272 S   4.3   0.1   1:02.09 node
+1680121 dclcom57  20   0   11.1g  55636  40960 S   4.3   0.0   0:02.56 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:00.89 nvidia-+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+
+=== 2026-01-26 15:29:45 ===
+top - 15:29:45 up 41 days,  4:27,  4 users,  load average: 1.34, 1.23, 1.37
+Tasks: 1933 total,   2 running, 1931 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.6 sy,  0.0 ni, 98.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226125.9 free,  24882.9 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485657.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1741342 dclcom57  20   0   16744   5120   3072 R  26.1   0.0   0:00.12 top
+1737455 dclcom57  20   0  187156  20480   6144 R   8.7   0.0   0:02.29 nvidia-+
+     17 root      20   0       0      0      0 I   4.3   0.0 152:32.19 rcu_pre+
+1679710 dclcom57  20   0   17840   7356   5120 S   4.3   0.0   0:00.78 sshd
+1680112 dclcom57  20   0   83.4g 363568  54272 S   4.3   0.1   1:02.15 node
+1722228 root      20   0       0      0      0 I   4.3   0.0   0:00.21 kworker+
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:00.92 nvidia-+
+3761388 root      20   0       0      0      0 I   4.3   0.0   0:01.13 kworker+
+3974717 root      20   0       0      0      0 I   4.3   0.0   0:01.35 kworker+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:46 ===
+top - 15:29:46 up 41 days,  4:27,  4 users,  load average: 1.34, 1.23, 1.37
+Tasks: 1933 total,   1 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.5 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226113.9 free,  24894.8 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485645.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1741458 dclcom57  20   0   16744   5120   3072 R  31.8   0.0   0:00.12 top
+1680112 dclcom57  20   0   83.4g 364592  54272 S   9.1   0.1   1:02.25 node
+    221 root      rt   0       0      0      0 S   4.5   0.0   0:25.68 migrati+
+1641637 dclcom57  20   0 1459860  79084  47104 S   4.5   0.0   0:08.69 node
+1679976 dclcom57  20   0   11.3g  96004  44032 S   4.5   0.0   0:15.52 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:47 ===
+top - 15:29:48 up 41 days,  4:27,  4 users,  load average: 1.34, 1.23, 1.37
+Tasks: 1936 total,   1 running, 1935 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.3 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226079.3 free,  24929.4 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485610.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1741569 dclcom57  20   0   16744   5120   3072 R  31.8   0.0   0:00.13 top
+1680112 dclcom57  20   0   83.4g 364592  54272 S   4.5   0.1   1:02.28 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:00.97 nvidia-+
+2660996 root      20   0  769776  51288  32768 S   4.5   0.0  25:19.96 coredns
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:49 ===
+top - 15:29:49 up 41 days,  4:27,  4 users,  load average: 1.23, 1.21, 1.36
+Tasks: 1936 total,   1 running, 1935 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.6 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226153.4 free,  24855.4 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485684.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1741671 dclcom57  20   0   16748   5120   3072 R  27.3   0.0   0:00.11 top
+ 585595 root      20   0   62.2g 513808  57344 S   9.1   0.1   7:29.98 node
+ 749976 root      20   0       0      0      0 I   4.5   0.0   0:11.11 kworker+
+1641622 dclcom57  20   0   82.9g 614036  57344 S   4.5   0.1   1:29.16 node
+1680112 dclcom57  20   0   83.4g 364592  54272 S   4.5   0.1   1:02.30 node
+3446257 root      20   0       0      0      0 I   4.5   0.0   0:24.90 kworker+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:50 ===
+top - 15:29:50 up 41 days,  4:27,  4 users,  load average: 1.23, 1.21, 1.36
+Tasks: 1935 total,   2 running, 1933 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.3 us,  0.8 sy,  0.0 ni, 97.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226187.3 free,  24821.5 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485718.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1741811 root      20   0 1830084  46080  34816 R  65.2   0.0   0:00.15 calico-+
+1741823 root      20   0 1681596  34816  27648 S  39.1   0.0   0:00.09 calico-+
+1741780 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.12 top
+1264322 root      20   0       0      0      0 I   4.3   0.0   0:05.64 kworker+
+2493314 root      20   0   11.2g  40960  40960 S   4.3   0.0  14:11.11 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:51 ===
+top - 15:29:51 up 41 days,  4:27,  4 users,  load average: 1.23, 1.21, 1.36
+Tasks: 1933 total,   1 running, 1932 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.2 us,  1.3 sy,  0.0 ni, 97.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226157.2 free,  24851.6 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485688.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680112 dclcom57  20   0   83.4g 363968  54272 S  36.4   0.1   1:02.90 node
+1741915 dclcom57  20   0   16744   5120   3072 R  36.4   0.0   0:00.13 top
+1737455 dclcom57  20   0  187156  20480   6144 S  22.7   0.0   0:02.66 nvidia-+
+1412939 root      20   0       0      0      0 I   4.5   0.0   0:03.28 kworker+
+2493170 root      20   0   11.7g 503036  44032 S   4.5   0.1  30:56.38 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:52 ===
+top - 15:29:53 up 41 days,  4:27,  4 users,  load average: 1.21, 1.20, 1.36
+Tasks: 1934 total,   1 running, 1933 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.6 sy,  0.0 ni, 98.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226149.1 free,  24859.7 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485680.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1742052 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.12 top
+ 585595 root      20   0   62.2g 513808  57344 S  17.4   0.1   7:30.08 node
+1412747 root      20   0       0      0      0 I   4.3   0.0   0:03.34 kworker+
+1679710 dclcom57  20   0   17840   7356   5120 S   4.3   0.0   0:00.82 sshd
+2493170 root      20   0   11.7g 503036  44032 S   4.3   0.1  30:56.39 node
+2660996 root      20   0  769776  51288  32768 S   4.3   0.0  25:19.97 coredns
+2667045 root      20   0    4264   1024   1024 S   4.3   0.0  13:22.77 runsv
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:54 ===
+top - 15:29:54 up 41 days,  4:27,  4 users,  load average: 1.21, 1.20, 1.36
+Tasks: 1935 total,   1 running, 1934 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.8 sy,  0.0 ni, 98.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226186.5 free,  24822.2 used, 264626.6 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485717.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1742234 dclcom57  20   0   16744   5120   3072 R  30.4   0.0   0:00.12 top
+1641622 dclcom57  20   0   82.9g 615060  57344 S  21.7   0.1   1:29.71 node
+1641648 dclcom57  20   0 1161356  69744  48128 S   4.3   0.0   0:03.77 node
+1680112 dclcom57  20   0   83.4g 363968  54272 S   4.3   0.1   1:03.00 node
+1680159 dclcom57  20   0   11.2g  72920  38912 S   4.3   0.0   0:16.92 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:01.10 nvidia-+
+2493314 root      20   0   11.2g  40960  40960 S   4.3   0.0  14:11.12 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:55 ===
+top - 15:29:55 up 41 days,  4:27,  4 users,  load average: 1.21, 1.20, 1.36
+Tasks: 1935 total,   2 running, 1933 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.5 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226154.4 free,  24854.3 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485685.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1742345 dclcom57  20   0   16744   5120   3072 R  31.8   0.0   0:00.12 top
+ 585595 root      20   0   62.2g 513808  57344 S   4.5   0.1   7:30.17 node
+1112290 root      20   0   92.8g 380648  57344 S   4.5   0.1   9:42.22 node
+1679710 dclcom57  20   0   17840   7356   5120 S   4.5   0.0   0:00.83 sshd
+1679976 dclcom57  20   0   11.3g  94924  44032 S   4.5   0.0   0:15.65 node
+1680112 dclcom57  20   0   83.4g 363968  54272 R   4.5   0.1   1:03.03 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:56 ===
+top - 15:29:57 up 41 days,  4:27,  4 users,  load average: 1.21, 1.20, 1.36
+Tasks: 1937 total,   3 running, 1934 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.5 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226171.3 free,  24837.5 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485702.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1737455 dclcom57  20   0  187156  20480   6144 S  27.3   0.0   0:02.94 nvidia-+
+1742450 dclcom57  20   0   16744   5120   3072 R  27.3   0.0   0:00.11 top
+1742452 root      20   0 1163296  21504  18432 R  13.6   0.0   0:00.03 calico-+
+1742453 root      20   0 1163040  17408  15360 R   9.1   0.0   0:00.02 calico-+
+1680159 dclcom57  20   0   11.2g  72920  38912 S   4.5   0.0   0:16.96 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:58 ===
+top - 15:29:58 up 41 days,  4:27,  4 users,  load average: 1.12, 1.18, 1.35
+Tasks: 1935 total,   1 running, 1934 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.4 us,  0.9 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226191.2 free,  24817.6 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485722.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1742549 dclcom57  20   0   16744   5120   3072 R  31.8   0.0   0:00.12 top
+1416351 root      20   0       0      0      0 I   4.5   0.0   0:23.75 kworker+
+1680112 dclcom57  20   0   83.4g 363968  54272 S   4.5   0.1   1:03.08 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.18 nvidia-+
+3084153 root      20   0   11.4g 219628  53248 S   4.5   0.0   4:32.94 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:29:59 ===
+top - 15:29:59 up 41 days,  4:27,  4 users,  load average: 1.12, 1.18, 1.35
+Tasks: 1942 total,   2 running, 1940 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  1.0 sy,  0.0 ni, 98.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226155.3 free,  24853.4 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485686.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1742717 dclcom57  20   0   18936  16384   2048 R 100.0   0.0   0:00.33 find
+1742749 dclcom57  20   0   16736   5120   3072 R  31.8   0.0   0:00.13 top
+1679976 dclcom57  20   0   11.3g  94924  44032 S   4.5   0.0   0:15.68 node
+1680159 dclcom57  20   0   11.2g  72920  38912 S   4.5   0.0   0:16.98 node
+1712616 root      20   0    2892   1024   1024 S   4.5   0.0   4:31.20 sh
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.21 nvidia-+
+2667047 root      20   0    4264   1024   1024 S   4.5   0.0  13:38.24 runsv
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:00 ===
+top - 15:30:01 up 41 days,  4:27,  4 users,  load average: 1.12, 1.18, 1.35
+Tasks: 1939 total,   2 running, 1937 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.9 us,  0.7 sy,  0.0 ni, 98.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226149.1 free,  24859.6 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485680.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1742889 root      20   0 1978060  46080  34816 S  86.4   0.0   0:00.19 calico-+
+1742887 dclcom57  20   0   16748   5120   3072 R  31.8   0.0   0:00.12 top
+1112290 root      20   0   92.8g 379436  57344 S  22.7   0.1   9:42.30 node
+1439335 avahi     20   0   11520   4096   3072 R   9.1   0.0  96:33.29 avahi-d+
+1737456 dclcom57  20   0  334660  20480   6144 S   9.1   0.0   0:01.24 nvidia-+
+1679710 dclcom57  20   0   17840   7356   5120 S   4.5   0.0   0:00.84 sshd
+1680159 dclcom57  20   0   11.2g  72920  38912 S   4.5   0.0   0:17.00 node
+1742905 root      20   0    2896   1024   1024 S   4.5   0.0   0:00.01 sh
+3539869 root      20   0 1061572  55364  45056 S   4.5   0.0   0:15.02 node
+4183548 root      20   0 1238384  11264   9216 S   4.5   0.0   1:28.10 contain+
+4184936 root      20   0 1307308  60648  47104 S   4.5   0.0   3:58.07 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+
+=== 2026-01-26 15:30:02 ===
+top - 15:30:02 up 41 days,  4:27,  4 users,  load average: 1.12, 1.18, 1.35
+Tasks: 1937 total,   1 running, 1936 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.7 sy,  0.0 ni, 98.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226179.5 free,  24829.2 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485710.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1742993 dclcom57  20   0   16748   5120   3072 R  31.8   0.0   0:00.13 top
+1737455 dclcom57  20   0  187156  20480   6144 S  27.3   0.0   0:03.22 nvidia-+
+ 585595 root      20   0   62.2g 513808  57344 S   9.1   0.1   7:30.36 node
+1123535 dclcom57  20   0 3399916  26624  19456 S   9.1   0.0   1:09.58 docker
+1124560 dclcom57  20   0 3252708  26624  19456 S   9.1   0.0   1:08.90 docker
+1680159 dclcom57  20   0   11.2g  72920  38912 S   9.1   0.0   0:17.03 node
+   3106 root      20   0 9594040 131612  31712 S   4.5   0.0 402:42.85 dockerd
+ 562543 root      20   0 1239152  24440   9216 S   4.5   0.0  15:22.47 contain+
+1124540 dclcom57  20   0 3251684  25600  17408 S   4.5   0.0   1:14.85 docker
+1124678 dclcom57  20   0 3547636  24576  18432 S   4.5   0.0   1:13.62 docker
+1680112 dclcom57  20   0   83.4g 361580  54272 S   4.5   0.1   1:03.18 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.26 nvidia-+
+2493170 root      20   0   11.7g 501948  44032 S   4.5   0.1  30:56.43 node
+
+=== 2026-01-26 15:30:03 ===
+top - 15:30:03 up 41 days,  4:27,  4 users,  load average: 1.03, 1.16, 1.35
+Tasks: 1936 total,   1 running, 1935 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.5 sy,  0.0 ni, 99.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226181.5 free,  24827.3 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485712.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1743106 dclcom57  20   0   16748   5120   3072 R  27.3   0.0   0:00.12 top
+ 585595 root      20   0   62.2g 513808  57344 S  22.7   0.1   7:30.41 node
+1680112 dclcom57  20   0   83.4g 361580  54272 S   4.5   0.1   1:03.20 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+
+=== 2026-01-26 15:30:04 ===
+top - 15:30:05 up 41 days,  4:27,  4 users,  load average: 1.03, 1.16, 1.35
+Tasks: 1943 total,   4 running, 1939 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.6 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226192.3 free,  24816.4 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485723.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1743221 root      20   0 1903560  35840  27648 R  47.8   0.0   0:00.11 calico-+
+1743222 root      20   0 1755584  34816  27648 R  39.1   0.0   0:00.09 calico-+
+1743214 dclcom57  20   0   16748   5120   3072 R  30.4   0.0   0:00.13 top
+1743238 root      20   0 1163040  16384  14336 R  13.0   0.0   0:00.03 calico-+
+1112016 dclcom57  20   0 2882768  24576  17408 S   4.3   0.0   0:10.44 docker
+1679976 dclcom57  20   0   11.3g  94924  44032 S   4.3   0.0   0:15.80 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:06 ===
+top - 15:30:06 up 41 days,  4:27,  4 users,  load average: 1.03, 1.16, 1.35
+Tasks: 1937 total,   1 running, 1936 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.4 us,  1.0 sy,  0.0 ni, 97.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226175.3 free,  24833.4 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485706.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1743344 dclcom57  20   0   16748   5120   3072 R  30.4   0.0   0:00.13 top
+1679976 dclcom57  20   0   11.3g  94924  44032 S   8.7   0.0   0:15.86 node
+2140500 dclcom57  20   0 3770112  23496  17408 S   4.3   0.0   2:05.25 docker
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+
+=== 2026-01-26 15:30:07 ===
+top - 15:30:07 up 41 days,  4:27,  4 users,  load average: 1.03, 1.16, 1.35
+Tasks: 1940 total,   1 running, 1939 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.5 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226175.4 free,  24833.3 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485706.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1743519 dclcom57  20   0   16748   5120   3072 R  31.8   0.0   0:00.12 top
+1737455 dclcom57  20   0  187156  20480   6144 S  27.3   0.0   0:03.50 nvidia-+
+3816080 dclcom57  20   0 2808780  25600  17408 S   9.1   0.0   0:11.27 docker
+   2071 root      20   0  337916  13312  12288 S   4.5   0.0 271:41.12 Network+
+1679976 dclcom57  20   0   11.3g  93900  44032 S   4.5   0.0   0:15.87 node
+1680112 dclcom57  20   0   83.4g 365416  54272 S   4.5   0.1   1:03.49 node
+1680121 dclcom57  20   0   11.1g  53012  40960 S   4.5   0.0   0:02.79 node
+1680159 dclcom57  20   0   11.2g  72920  38912 S   4.5   0.0   0:17.09 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.38 nvidia-+
+3879082 root      20   0    3244   1024   1024 S   4.5   0.0   0:04.54 tail
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+
+=== 2026-01-26 15:30:08 ===
+top - 15:30:09 up 41 days,  4:27,  4 users,  load average: 0.94, 1.14, 1.34
+Tasks: 1939 total,   3 running, 1936 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  1.0 sy,  0.0 ni, 98.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226163.5 free,  24845.2 used, 264626.8 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485694.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1641622 dclcom57  20   0   82.9g 615060  57344 R 113.6   0.1   1:30.07 node
+1743638 root      20   0 1755840  35840  28672 R  40.9   0.0   0:00.09 calico-+
+1743630 dclcom57  20   0   16748   5120   3072 R  36.4   0.0   0:00.13 top
+1680112 dclcom57  20   0   83.4g 365416  54272 S  22.7   0.1   1:03.57 node
+   2071 root      20   0  337916  13312  12288 S   4.5   0.0 271:41.13 Network+
+1679976 dclcom57  20   0   11.3g  93900  44032 S   4.5   0.0   0:15.93 node
+1680159 dclcom57  20   0   11.2g  72920  38912 S   4.5   0.0   0:17.11 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.41 nvidia-+
+1743649 dclcom57  20   0    2892   1024   1024 S   4.5   0.0   0:00.01 sh
+3083267 root      20   0 1238384  15180   8192 S   4.5   0.0   3:05.54 contain+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+
+=== 2026-01-26 15:30:10 ===
+top - 15:30:10 up 41 days,  4:27,  4 users,  load average: 0.94, 1.14, 1.34
+Tasks: 1941 total,   1 running, 1940 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.5 sy,  0.0 ni, 98.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226154.6 free,  24854.1 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485685.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1743778 dclcom57  20   0   16736   5120   3072 R  27.3   0.0   0:00.12 top
+1679976 dclcom57  20   0   11.3g  92740  44032 S   4.5   0.0   0:15.99 node
+3257941 root      20   0       0      0      0 I   4.5   0.0   0:19.74 kworker+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+
+=== 2026-01-26 15:30:11 ===
+top - 15:30:11 up 41 days,  4:27,  4 users,  load average: 0.94, 1.14, 1.34
+Tasks: 1944 total,   1 running, 1943 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.5 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226145.8 free,  24863.0 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485677.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1743901 dclcom57  20   0   16736   5120   3072 R  34.8   0.0   0:00.13 top
+1679976 dclcom57  20   0   11.3g  92740  44032 S  30.4   0.0   0:16.09 node
+1112039 root      20   0 1003956  44180  37888 S   4.3   0.0   0:08.24 node
+1641509 dclcom57  20   0   11.3g 114068  55296 S   4.3   0.0   0:07.64 node
+1679710 dclcom57  20   0   17840   7356   5120 S   4.3   0.0   0:00.91 sshd
+1680112 dclcom57  20   0   83.4g 366440  54272 S   4.3   0.1   1:04.18 node
+4184665 root      20   0   15.9g   4.7g  55296 S   4.3   0.9   9:22.30 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:12 ===
+top - 15:30:12 up 41 days,  4:27,  4 users,  load average: 0.94, 1.14, 1.34
+Tasks: 1943 total,   3 running, 1940 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.2 us,  1.1 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226154.2 free,  24854.5 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485685.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1744034 root      20   0 1977548  44032  32768 R  60.9   0.0   0:00.14 calico-+
+1737455 dclcom57  20   0  187156  20480   6144 S  26.1   0.0   0:03.79 nvidia-+
+1744016 dclcom57  20   0   16736   5120   3072 R  26.1   0.0   0:00.12 top
+1744065 root      20   0 1163296  23552  20480 R  13.0   0.0   0:00.03 calico-+
+   1337 root      20   0       0      0      0 S   4.3   0.0   8:47.41 jbd2/nv+
+   2620 root      20   0    3244   1024   1024 S   4.3   0.0   0:32.98 tail
+1679976 dclcom57  20   0   11.3g  94788  44032 S   4.3   0.0   0:16.21 node
+1680112 dclcom57  20   0   83.4g 367464  54272 S   4.3   0.1   1:04.25 node
+1680159 dclcom57  20   0   11.2g  73944  38912 S   4.3   0.0   0:17.16 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:01.49 nvidia-+
+2493314 root      20   0   11.2g  40960  40960 S   4.3   0.0  14:11.18 node
+3567815 root      20   0 1238384   9216   9216 S   4.3   0.0   1:37.50 contain+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+
+=== 2026-01-26 15:30:13 ===
+top - 15:30:14 up 41 days,  4:27,  4 users,  load average: 0.87, 1.12, 1.33
+Tasks: 1941 total,   2 running, 1939 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  1.0 sy,  0.0 ni, 97.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226156.1 free,  24852.6 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485687.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1744131 dclcom57  20   0   16736   5120   3072 R  31.8   0.0   0:00.12 top
+ 585595 root      20   0   62.2g 513808  57344 S  13.6   0.1   7:30.73 node
+     17 root      20   0       0      0      0 I   4.5   0.0 152:32.40 rcu_pre+
+   2083 root      20   0   83384   3072   3072 S   4.5   0.0 115:15.79 irqbala+
+1461596 root      20   0       0      0      0 I   4.5   0.0   0:01.55 kworker+
+1679710 dclcom57  20   0   17840   7356   5120 S   4.5   0.0   0:00.95 sshd
+1680159 dclcom57  20   0   11.2g  73944  38912 S   4.5   0.0   0:17.18 node
+2660996 root      20   0  769776  51288  32768 S   4.5   0.0  25:20.03 coredns
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+
+=== 2026-01-26 15:30:15 ===
+top - 15:30:15 up 41 days,  4:27,  4 users,  load average: 0.87, 1.12, 1.33
+Tasks: 1941 total,   1 running, 1940 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 99.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226176.1 free,  24832.6 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485707.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1744293 dclcom57  20   0   16736   5120   3072 R  30.4   0.0   0:00.12 top
+ 585595 root      20   0   62.2g 513808  57344 S   4.3   0.1   7:30.74 node
+1108736 dclcom57  20   0  293768   8192   8192 S   4.3   0.0   0:16.50 cursor-+
+1439335 avahi     20   0   11520   4096   3072 S   4.3   0.0  96:33.40 avahi-d+
+1680112 dclcom57  20   0   83.4g 367464  54272 S   4.3   0.1   1:04.30 node
+1680159 dclcom57  20   0   11.2g  73944  38912 S   4.3   0.0   0:17.19 node
+2493170 root      20   0   11.7g 501948  44032 S   4.3   0.1  30:56.50 node
+3083288 root      20   0    5296   3072   3072 S   4.3   0.0  11:33.57 bash
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+
+=== 2026-01-26 15:30:16 ===
+top - 15:30:16 up 41 days,  4:27,  4 users,  load average: 0.87, 1.12, 1.33
+Tasks: 1942 total,   2 running, 1940 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226186.6 free,  24822.2 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485717.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1744398 dclcom57  20   0   16736   5120   3072 R  30.4   0.0   0:00.13 top
+1679976 dclcom57  20   0   11.3g  94784  44032 S  13.0   0.0   0:16.33 node
+1680112 dclcom57  20   0   83.4g 367464  54272 S  13.0   0.1   1:04.36 node
+1744403 root      20   0 1163040  17408  15360 R   8.7   0.0   0:00.02 calico-+
+1439335 avahi     20   0   11520   4096   3072 S   4.3   0.0  96:33.66 avahi-d+
+1680121 dclcom57  20   0   11.1g  53592  40960 S   4.3   0.0   0:02.94 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:17 ===
+top - 15:30:18 up 41 days,  4:27,  4 users,  load average: 1.36, 1.22, 1.36
+Tasks: 1942 total,   2 running, 1940 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.9 us,  1.4 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226159.0 free,  24849.8 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485690.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1112290 root      20   0   92.8g 377048  57344 R  81.8   0.1   9:43.17 node
+1744497 dclcom57  20   0   16736   5120   3072 R  36.4   0.0   0:00.13 top
+ 585595 root      20   0   62.2g 513808  57344 S  22.7   0.1   7:30.84 node
+1737455 dclcom57  20   0  187156  20480   6144 S  22.7   0.0   0:04.05 nvidia-+
+1679976 dclcom57  20   0   11.3g  95736  44032 S  13.6   0.0   0:16.46 node
+1680112 dclcom57  20   0   83.4g 367464  54272 S  13.6   0.1   1:04.43 node
+1439335 avahi     20   0   11520   4096   3072 S   4.5   0.0  96:33.67 avahi-d+
+1680121 dclcom57  20   0   11.1g  53592  40960 S   4.5   0.0   0:02.95 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.59 nvidia-+
+1737458 dclcom57  20   0   11284   1024   1024 S   4.5   0.0   0:00.16 monitor+
+1737459 dclcom57  20   0   13324   3072   3072 S   4.5   0.0   0:00.09 vmstat
+2667045 root      20   0    4264   1024   1024 S   4.5   0.0  13:22.81 runsv
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+
+=== 2026-01-26 15:30:19 ===
+top - 15:30:19 up 41 days,  4:28,  4 users,  load average: 1.36, 1.22, 1.36
+Tasks: 1942 total,   2 running, 1940 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.5 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226208.3 free,  24800.4 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485739.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1744623 dclcom57  20   0   16736   5120   3072 R  36.4   0.0   0:00.13 top
+1744627 root      20   0 1163040  17408  15360 R  13.6   0.0   0:00.03 calico-+
+1679976 dclcom57  20   0   11.3g  94528  44032 S   9.1   0.0   0:16.58 node
+     17 root      20   0       0      0      0 I   4.5   0.0 152:32.44 rcu_pre+
+1679710 dclcom57  20   0   17840   7356   5120 S   4.5   0.0   0:01.03 sshd
+1713827 root      20   0 1516884  60620  47104 S   4.5   0.0  21:09.34 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.62 nvidia-+
+2667051 root      20   0    4264   1024   1024 S   4.5   0.0  13:05.05 runsv
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+
+=== 2026-01-26 15:30:20 ===
+top - 15:30:20 up 41 days,  4:28,  4 users,  load average: 1.36, 1.22, 1.36
+Tasks: 1942 total,   3 running, 1939 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.5 us,  1.0 sy,  0.0 ni, 97.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226199.2 free,  24809.5 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485730.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1744770 root      20   0 1904072  46080  34816 R  68.2   0.0   0:00.15 calico-+
+1744726 dclcom57  20   0   16736   5120   3072 R  27.3   0.0   0:00.12 top
+1679976 dclcom57  20   0   11.3g  94380  44032 S  13.6   0.0   0:16.71 node
+1680112 dclcom57  20   0   83.4g 365208  54272 S   9.1   0.1   1:04.56 node
+     17 root      20   0       0      0      0 I   4.5   0.0 152:32.45 rcu_pre+
+1264322 root      20   0       0      0      0 I   4.5   0.0   0:05.67 kworker+
+1641648 dclcom57  20   0 1161356  69744  48128 S   4.5   0.0   0:03.81 node
+1679710 dclcom57  20   0   17840   7356   5120 S   4.5   0.0   0:01.06 sshd
+1712616 root      20   0    2892   1024   1024 S   4.5   0.0   4:31.21 sh
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.65 nvidia-+
+2667043 root      20   0    4264   1024   1024 S   4.5   0.0  13:33.93 runsv
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+
+=== 2026-01-26 15:30:21 ===
+top - 15:30:22 up 41 days,  4:28,  4 users,  load average: 1.36, 1.22, 1.36
+Tasks: 1941 total,   2 running, 1939 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.7 sy,  0.0 ni, 98.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226217.9 free,  24790.8 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485749.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1744872 dclcom57  20   0   16736   5120   3072 R  34.8   0.0   0:00.13 top
+1679976 dclcom57  20   0   11.3g  96428  44032 S  17.4   0.0   0:16.93 node
+1680112 dclcom57  20   0   83.4g 365208  54272 S  13.0   0.1   1:04.66 node
+1680121 dclcom57  20   0   11.1g  53592  40960 S   8.7   0.0   0:03.01 node
+1679710 dclcom57  20   0   17840   7356   5120 S   4.3   0.0   0:01.09 sshd
+1737458 dclcom57  20   0   11284   1024   1024 S   4.3   0.0   0:00.17 monitor+
+1743735 dclcom57  20   0 2218412  26624  18432 S   4.3   0.0   0:00.10 docker
+2660996 root      20   0  769776  51288  32768 S   4.3   0.0  25:20.05 coredns
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+
+=== 2026-01-26 15:30:23 ===
+top - 15:30:23 up 41 days,  4:28,  4 users,  load average: 1.33, 1.22, 1.36
+Tasks: 1944 total,   3 running, 1941 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.7 sy,  0.0 ni, 99.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226211.8 free,  24796.9 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485743.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1745000 dclcom57  20   0   16736   5120   3072 R  36.4   0.0   0:00.13 top
+1641622 dclcom57  20   0   83.0g 615060  57344 S  22.7   0.1   1:30.33 node
+1737455 dclcom57  20   0  187156  20480   6144 R  18.2   0.0   0:04.32 nvidia-+
+1745003 dclcom57  20   0   10664   2048   2048 R  13.6   0.0   0:00.03 ls
+1679976 dclcom57  20   0   11.3g  96428  44032 S   9.1   0.0   0:17.01 node
+1112290 root      20   0   92.8g 378072  57344 S   4.5   0.1   9:43.23 node
+1439335 avahi     20   0   11520   4096   3072 S   4.5   0.0  96:33.70 avahi-d+
+1680112 dclcom57  20   0   83.4g 364184  54272 S   4.5   0.1   1:04.71 node
+1745002 dclcom57  20   0    2892   1024   1024 S   4.5   0.0   0:00.01 sh
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:24 ===
+top - 15:30:24 up 41 days,  4:28,  4 users,  load average: 1.33, 1.22, 1.36
+Tasks: 1944 total,   1 running, 1943 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.4 sy,  0.0 ni, 99.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226244.8 free,  24763.9 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485776.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1745117 dclcom57  20   0   16736   5120   3072 R  30.4   0.0   0:00.13 top
+2493170 root      20   0   11.7g 501780  44032 S   4.3   0.1  30:56.55 node
+3584615 root      20   0    3244   1024   1024 S   4.3   0.0   0:33.59 tail
+4184665 root      20   0   15.9g   4.7g  55296 S   4.3   0.9   9:22.31 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:25 ===
+top - 15:30:26 up 41 days,  4:28,  4 users,  load average: 1.33, 1.22, 1.36
+Tasks: 1941 total,   2 running, 1939 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.2 us,  0.6 sy,  0.0 ni, 98.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226211.5 free,  24797.2 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485742.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1112290 root      20   0   92.8g 381556  57344 R  90.9   0.1   9:43.65 node
+1745221 dclcom57  20   0   16736   5120   3072 R  31.8   0.0   0:00.12 top
+1679976 dclcom57  20   0   11.3g  96428  44032 S   4.5   0.0   0:17.03 node
+1680112 dclcom57  20   0   83.4g 365184  54272 S   4.5   0.1   1:04.75 node
+1680159 dclcom57  20   0   11.2g  73944  38912 S   4.5   0.0   0:17.33 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.75 nvidia-+
+2493170 root      20   0   11.7g 501780  44032 S   4.5   0.1  30:56.58 node
+3761223 root      20   0    3244   1024   1024 S   4.5   0.0   0:04.56 tail
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:07.99 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+
+=== 2026-01-26 15:30:27 ===
+top - 15:30:27 up 41 days,  4:28,  4 users,  load average: 1.33, 1.22, 1.36
+Tasks: 1949 total,   5 running, 1944 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  1.3 sy,  0.0 ni, 97.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226184.9 free,  24823.8 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485716.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1745416 root      20   0 1682108  40960  31744 R  52.2   0.0   0:00.12 calico-+
+1680112 dclcom57  20   0   83.4g 369044  54272 S  47.8   0.1   1:05.32 node
+1745414 dclcom57  20   0   13984   3072   3072 R  47.8   0.0   0:00.11 ps
+1745383 dclcom57  20   0   16740   5120   3072 R  30.4   0.0   0:00.13 top
+1745426 root      20   0 1532788  25600  21504 S  21.7   0.0   0:00.05 calico-+
+1745427 root      20   0 1163040  25600  21504 R  13.0   0.0   0:00.03 calico-+
+   2071 root      20   0  337916  13312  12288 S   4.3   0.0 271:41.20 Network+
+1112290 root      20   0   92.8g 409204  57344 R   4.3   0.1   9:45.23 node
+1439335 avahi     20   0   11520   4096   3072 S   4.3   0.0  96:33.71 avahi-d+
+1679976 dclcom57  20   0   11.3g  96428  44032 S   4.3   0.0   0:17.04 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:01.78 nvidia-+
+1745413 dclcom57  20   0    2892   1024   1024 S   4.3   0.0   0:00.01 sh
+2667049 root      20   0    4264   1024   1024 S   4.3   0.0  13:38.80 runsv
+
+=== 2026-01-26 15:30:28 ===
+top - 15:30:28 up 41 days,  4:28,  4 users,  load average: 1.22, 1.20, 1.35
+Tasks: 1943 total,   2 running, 1941 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.4 us,  1.2 sy,  0.0 ni, 97.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226175.6 free,  24833.1 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485706.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1745510 dclcom57  20   0   16740   5120   3072 R  34.8   0.0   0:00.13 top
+ 585595 root      20   0   62.2g 513808  57344 S  26.1   0.1   7:31.17 node
+1737455 dclcom57  20   0  187156  20480   6144 R  13.0   0.0   0:04.58 nvidia-+
+1680112 dclcom57  20   0   83.4g 369044  54272 S   4.3   0.1   1:05.36 node
+2667047 root      20   0    4264   1024   1024 S   4.3   0.0  13:38.29 runsv
+4143733 root      20   0       0      0      0 I   4.3   0.0   0:00.87 kworker+
+4184936 root      20   0 1307308  60648  47104 S   4.3   0.0   3:58.11 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:29 ===
+top - 15:30:30 up 41 days,  4:28,  4 users,  load average: 1.22, 1.20, 1.35
+Tasks: 1943 total,   2 running, 1941 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.5 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226160.2 free,  24848.5 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485691.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1745678 dclcom57  20   0   16736   5120   3072 R  30.4   0.0   0:00.13 top
+ 562543 root      20   0 1239152  24440   9216 S   8.7   0.0  15:22.51 contain+
+1680112 dclcom57  20   0   83.4g 369044  54272 S   4.3   0.1   1:05.37 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:01.83 nvidia-+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:31 ===
+top - 15:30:31 up 41 days,  4:28,  4 users,  load average: 1.22, 1.20, 1.35
+Tasks: 1943 total,   3 running, 1940 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.3 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226138.5 free,  24870.2 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485669.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1745784 dclcom57  20   0   16736   5120   3072 R  31.8   0.0   0:00.12 top
+1679710 dclcom57  20   0   17840   7356   5120 S   4.5   0.0   0:01.14 sshd
+1679976 dclcom57  20   0   11.3g  96428  44032 S   4.5   0.0   0:17.07 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.85 nvidia-+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:32 ===
+top - 15:30:32 up 41 days,  4:28,  4 users,  load average: 1.22, 1.20, 1.35
+Tasks: 1943 total,   1 running, 1942 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.3 sy,  0.0 ni, 99.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226145.1 free,  24863.7 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485676.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1745885 dclcom57  20   0   16736   5120   3072 R  31.8   0.0   0:00.13 top
+1112016 dclcom57  20   0 2882768  24576  17408 S   9.1   0.0   0:10.49 docker
+1112290 root      20   0   92.8g 414324  57344 S   9.1   0.1   9:45.46 node
+   3106 root      20   0 9594040 132636  31712 S   4.5   0.0 402:42.98 dockerd
+1108736 dclcom57  20   0  293768   8192   8192 S   4.5   0.0   0:16.53 cursor-+
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:01.88 nvidia-+
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:33 ===
+top - 15:30:33 up 41 days,  4:28,  4 users,  load average: 1.13, 1.18, 1.35
+Tasks: 1944 total,   1 running, 1943 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.6 sy,  0.0 ni, 98.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226150.9 free,  24857.8 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485682.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1745987 root      20   0 1978060  47104  36864 S  81.8   0.0   0:00.18 calico-+
+1745984 dclcom57  20   0   16736   5120   3072 R  36.4   0.0   0:00.13 top
+    197 root      rt   0       0      0      0 S   4.5   0.0   0:23.50 migrati+
+    257 root      rt   0       0      0      0 S   4.5   0.0   0:25.05 migrati+
+ 805651 root      20   0    3244   1024   1024 S   4.5   0.0   1:22.87 tail
+1680112 dclcom57  20   0   83.4g 367612  54272 S   4.5   0.1   1:05.48 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:34 ===
+top - 15:30:35 up 41 days,  4:28,  4 users,  load average: 1.13, 1.18, 1.35
+Tasks: 1948 total,   3 running, 1945 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.9 us,  1.4 sy,  0.0 ni, 96.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226071.0 free,  24937.7 used, 264626.8 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485602.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1746196 root      20   0       0      0      0 R  69.6   0.0   0:00.16 calico-+
+1746198 root      20   0 1903816  39936  31744 S  60.9   0.0   0:00.14 calico-+
+1746212 root      20   0 1608376  33792  26624 R  39.1   0.0   0:00.09 calico-+
+1746166 dclcom57  20   0   16740   5120   3072 R  30.4   0.0   0:00.13 top
+1112290 root      20   0   92.8g 419444  57344 S  17.4   0.1   9:45.67 node
+1737455 dclcom57  20   0  187156  20480   6144 S  13.0   0.0   0:04.95 nvidia-+
+ 509322 root      20   0       0      0      0 I   4.3   0.0   0:05.54 kworker+
+ 970869 root      20   0       0      0      0 I   4.3   0.0   0:11.70 kworker+
+1439335 avahi     20   0   11520   4096   3072 S   4.3   0.0  96:33.75 avahi-d+
+1641648 dclcom57  20   0 1161356  69744  48128 S   4.3   0.0   0:03.84 node
+1680112 dclcom57  20   0   83.4g 367612  54272 S   4.3   0.1   1:05.53 node
+1680159 dclcom57  20   0   11.2g  73944  38912 S   4.3   0.0   0:17.43 node
+2493170 root      20   0   11.7g 501724  44032 S   4.3   0.1  30:56.65 node
+
+=== 2026-01-26 15:30:36 ===
+top - 15:30:36 up 41 days,  4:28,  4 users,  load average: 1.13, 1.18, 1.35
+Tasks: 1945 total,   1 running, 1944 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.7 sy,  0.0 ni, 98.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226097.0 free,  24911.7 used, 264626.8 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485628.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1746304 dclcom57  20   0   16740   5120   3072 R  31.8   0.0   0:00.12 top
+ 585595 root      20   0   62.2g 513808  57344 S   4.5   0.1   7:31.38 node
+1112290 root      20   0   92.8g 419444  57344 S   4.5   0.1   9:45.68 node
+2467121 root      20   0 1238384  11032   8192 S   4.5   0.0   2:50.39 contain+
+3879281 root      20   0    3244   1024   1024 S   4.5   0.0   0:04.46 tail
+4184665 root      20   0   15.9g   4.7g  55296 S   4.5   0.9   9:22.32 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+
+=== 2026-01-26 15:30:37 ===
+top - 15:30:37 up 41 days,  4:28,  4 users,  load average: 1.13, 1.18, 1.35
+Tasks: 1945 total,   1 running, 1944 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.3 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226106.2 free,  24902.4 used, 264626.8 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485637.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1746454 dclcom57  20   0   16740   5120   3072 R  36.4   0.0   0:00.13 top
+1679976 dclcom57  20   0   11.3g  95268  44032 S   4.5   0.0   0:17.17 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+
+=== 2026-01-26 15:30:38 ===
+top - 15:30:39 up 41 days,  4:28,  4 users,  load average: 1.12, 1.17, 1.34
+Tasks: 1945 total,   1 running, 1944 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.5 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226124.9 free,  24883.8 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485656.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1746563 dclcom57  20   0   16740   5120   3072 R  36.4   0.0   0:00.13 top
+ 585595 root      20   0   62.2g 513808  57344 S  13.6   0.1   7:31.50 node
+3878890 dclcom57  20   0 3030744  25600  17408 S   9.1   0.0   0:10.93 docker
+   3106 root      20   0 9594040 132636  31712 S   4.5   0.0 402:43.02 dockerd
+1112119 root      20   0  988992  37888  37888 S   4.5   0.0   0:04.68 node
+1680159 dclcom57  20   0   11.2g  73944  38912 S   4.5   0.0   0:17.47 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.5   0.0   0:02.01 nvidia-+
+2458305 systemd+  20   0   14836   6144   6144 S   4.5   0.0  55:24.41 systemd+
+2493170 root      20   0   11.7g 501724  44032 S   4.5   0.1  30:56.67 node
+2670268 root      20   0 5278504  47416  31744 S   4.5   0.0  19:43.49 contain+
+3761459 root      20   0    3244   1024   1024 S   4.5   0.0   0:04.53 tail
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+
+=== 2026-01-26 15:30:40 ===
+top - 15:30:40 up 41 days,  4:28,  4 users,  load average: 1.12, 1.17, 1.34
+Tasks: 1945 total,   2 running, 1943 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.7 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226110.2 free,  24898.5 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485641.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1746662 dclcom57  20   0   16736   5120   3072 R  34.8   0.0   0:00.13 top
+1737455 dclcom57  20   0  187156  20480   6144 S  26.1   0.0   0:05.23 nvidia-+
+1112290 root      20   0   92.8g 419444  57344 R  17.4   0.1   9:45.77 node
+1680112 dclcom57  20   0   83.4g 367608  54272 S   8.7   0.1   1:05.62 node
+     17 root      20   0       0      0      0 I   4.3   0.0 152:32.59 rcu_pre+
+ 500403 root      20   0       0      0      0 I   4.3   0.0   0:00.98 kworker+
+1439335 avahi     20   0   11520   4096   3072 S   4.3   0.0  96:33.79 avahi-d+
+1679976 dclcom57  20   0   11.3g  95268  44032 S   4.3   0.0   0:17.18 node
+1680121 dclcom57  20   0   11.1g  53592  40960 S   4.3   0.0   0:03.09 node
+1737456 dclcom57  20   0  334660  20480   6144 S   4.3   0.0   0:02.04 nvidia-+
+2493314 root      20   0   11.2g  40960  40960 S   4.3   0.0  14:11.30 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+
+=== 2026-01-26 15:30:41 ===
+top - 15:30:41 up 41 days,  4:28,  4 users,  load average: 1.12, 1.17, 1.34
+Tasks: 1947 total,   2 running, 1945 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.6 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem : 515635.4 total, 226117.7 free,  24891.0 used, 264626.7 buff/cache
+MiB Swap:  31250.0 total,  30779.7 free,    470.2 used. 485648.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1746773 root      20   0 1756352  39936  30720 S  50.0   0.0   0:00.11 calico-+
+1746769 dclcom57  20   0   16740   5120   3072 R  36.4   0.0   0:00.13 top
+1746779 root      20   0 1459312  29696  25600 R  27.3   0.0   0:00.06 calico-+
+1679976 dclcom57  20   0   11.3g  95268  44032 S   4.5   0.0   0:17.26 node
+1680112 dclcom57  20   0   83.4g 366584  54272 S   4.5   0.1   1:05.64 node
+      1 root      20   0  169688  12592   8192 S   0.0   0.0  24:27.85 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:08.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+

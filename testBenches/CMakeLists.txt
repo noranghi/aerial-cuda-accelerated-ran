@@ -136,7 +136,8 @@ if (${CMAKE_CURRENT_SOURCE_DIR} STREQUAL ${CMAKE_SOURCE_DIR})
     add_subdirectory(../cuPHY/src cuPHY/src)
 
     if(ENABLE_CUMAC)
-        add_subdirectory(../cuMAC/src cuMAC/src cuMAC/lib/cumac_msg)
+        add_subdirectory(../cuMAC/src cuMAC/src)
+        add_subdirectory(../cuMAC/lib/cumac_msg cuMAC/lib/cumac_msg)
     endif()
 endif()
 

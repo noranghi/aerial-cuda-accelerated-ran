@@ -1,0 +1,126 @@
+# Cell Sweep Test Analysis Report
+
+**Generated:** 2026-01-20 07:06:07
+
+## 📋 Test Configuration
+
+| Parameter | Value |
+|-----------|-------|
+| SM Allocation | DL: 66, UL: 66 |
+| Iterations | 1000 |
+| Delay | 0 μs |
+| Cells Tested | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 |
+| Total Tests | 16 |
+
+## 📊 Results Summary
+
+| Cells | Pattern Time (μs) | Slots/sec | Cell-Slots/sec | Throughput (Gbps) | Real-time |
+|:-----:|:-----------------:|:---------:|:--------------:|:-----------------:|:---------:|
+| 1 | 4508.44 | 2218.06 | 2218.06 | 0.15 | ✅ PASS |
+| 2 | 4549.10 | 2198.24 | 4396.47 | 0.30 | ✅ PASS |
+| 3 | 4633.69 | 2158.11 | 6474.33 | 0.45 | ✅ PASS |
+| 4 | 4577.33 | 2184.68 | 8738.71 | 0.60 | ✅ PASS |
+| 5 | 4672.38 | 2140.24 | 10701.19 | 0.75 | ✅ PASS |
+| 6 | 4561.98 | 2192.03 | 13152.19 | 0.90 | ✅ PASS |
+| 7 | 4504.38 | 2220.06 | 15540.45 | 1.05 | ✅ PASS |
+| 8 | 4345.36 | 2301.31 | 18410.46 | 1.20 | ✅ PASS |
+| 9 | 4296.54 | 2327.45 | 20947.09 | 1.35 | ✅ PASS |
+| 10 | 4576.49 | 2185.08 | 21850.81 | 1.50 | ✅ PASS |
+| 11 | 4632.15 | 2158.82 | 23747.06 | 1.65 | ✅ PASS |
+| 12 | 4517.60 | 2213.56 | 26562.77 | 1.80 | ✅ PASS |
+| 13 | 5329.46 | 1876.36 | 24392.71 | 1.95 | ❌ FAIL |
+| 14 | 5424.19 | 1843.59 | 25810.32 | 2.10 | ❌ FAIL |
+| 15 | 5324.13 | 1878.24 | 28173.64 | 2.25 | ❌ FAIL |
+| 16 | 6382.15 | 1566.87 | 25069.93 | 2.40 | ❌ FAIL |
+
+## 🎯 Key Findings
+
+### Maximum Real-time Capacity
+
+- **Maximum cells meeting 5ms requirement:** 12 cells
+- **Real-time requirement:** 10-slot pattern ≤ 5000μs (5ms)
+
+### Latency Analysis
+
+| Cells | PUSCH1 Avg (μs) | PUSCH2 Avg (μs) | PDSCH Avg (μs) |
+|:-----:|:---------------:|:---------------:|:--------------:|
+| 1 | 240.18 | 783.14 | 450.84 |
+| 2 | 422.02 | 986.93 | 454.91 |
+| 3 | 534.22 | 1148.88 | 463.37 |
+| 4 | 590.91 | 1289.80 | 457.73 |
+| 5 | 700.70 | 1799.90 | 467.24 |
+| 6 | 769.42 | 1897.42 | 456.20 |
+| 7 | 888.18 | 2004.19 | 450.44 |
+| 8 | 1035.78 | 2008.31 | 434.54 |
+| 9 | 1307.22 | 2368.86 | 429.65 |
+| 10 | 1438.41 | 2628.09 | 457.65 |
+| 11 | 1333.74 | 2477.63 | 463.22 |
+| 12 | 1409.55 | 2599.79 | 451.76 |
+| 13 | 1722.20 | 3194.08 | 532.95 |
+| 14 | 1724.33 | 3167.57 | 542.42 |
+| 15 | 1425.60 | 2623.64 | 532.41 |
+| 16 | 1881.93 | 3448.42 | 638.21 |
+
+### Throughput Scaling
+
+- **Cell scaling:** 1 → 16 cells (16.0x)
+- **Throughput scaling:** 0.15 → 2.40 Gbps (16.0x)
+- **Scaling efficiency:** 100.0%
+
+## ⚠️ Real-time Compliance Check
+
+### Per-Slot Requirement (500μs TTI)
+
+| Cells | Avg Slot Time (μs) | 500μs Margin | Status |
+|:-----:|:------------------:|:------------:|:------:|
+| 1 | 450.84 | 49.16 | ✅ |
+| 2 | 454.91 | 45.09 | ✅ |
+| 3 | 463.37 | 36.63 | ✅ |
+| 4 | 457.73 | 42.27 | ✅ |
+| 5 | 467.24 | 32.76 | ✅ |
+| 6 | 456.20 | 43.80 | ✅ |
+| 7 | 450.44 | 49.56 | ✅ |
+| 8 | 434.54 | 65.46 | ✅ |
+| 9 | 429.65 | 70.35 | ✅ |
+| 10 | 457.65 | 42.35 | ✅ |
+| 11 | 463.22 | 36.78 | ✅ |
+| 12 | 451.76 | 48.24 | ✅ |
+| 13 | 532.95 | -32.95 | ❌ |
+| 14 | 542.42 | -42.42 | ❌ |
+| 15 | 532.41 | -32.41 | ❌ |
+| 16 | 638.21 | -138.21 | ❌ |
+
+**Maximum cells meeting 500μs TTI requirement:** 12 cells
+
+## 📁 Generated Files
+
+| File | Description |
+|------|-------------|
+| `throughput_01cell_SM66_66_throughput_analysis.json` | 1-cell throughput analysis |
+| `throughput_02cell_SM66_66_throughput_analysis.json` | 2-cell throughput analysis |
+| `throughput_03cell_SM66_66_throughput_analysis.json` | 3-cell throughput analysis |
+| `throughput_04cell_SM66_66_throughput_analysis.json` | 4-cell throughput analysis |
+| `throughput_05cell_SM66_66_throughput_analysis.json` | 5-cell throughput analysis |
+| `throughput_06cell_SM66_66_throughput_analysis.json` | 6-cell throughput analysis |
+| `throughput_07cell_SM66_66_throughput_analysis.json` | 7-cell throughput analysis |
+| `throughput_08cell_SM66_66_throughput_analysis.json` | 8-cell throughput analysis |
+| `throughput_09cell_SM66_66_throughput_analysis.json` | 9-cell throughput analysis |
+| `throughput_10cell_SM66_66_throughput_analysis.json` | 10-cell throughput analysis |
+| `throughput_11cell_SM66_66_throughput_analysis.json` | 11-cell throughput analysis |
+| `throughput_12cell_SM66_66_throughput_analysis.json` | 12-cell throughput analysis |
+| `throughput_13cell_SM66_66_throughput_analysis.json` | 13-cell throughput analysis |
+| `throughput_14cell_SM66_66_throughput_analysis.json` | 14-cell throughput analysis |
+| `throughput_15cell_SM66_66_throughput_analysis.json` | 15-cell throughput analysis |
+| `throughput_16cell_SM66_66_throughput_analysis.json` | 16-cell throughput analysis |
+| `cell_sweep_SM66_66_comparison.png` | Comparison graphs |
+| `sweep_summary.txt` | Text summary |
+
+## 📈 Conclusion
+
+With SM allocation of 66/66 (DL/UL):
+
+1. **5ms Pattern Requirement:** Up to **12 cells** can meet the 10-slot (5ms) deadline
+2. **500μs TTI Requirement:** Up to **12 cells** can meet the per-slot (500μs) deadline
+
+---
+*Report generated by Cell Sweep Test Automation Script*

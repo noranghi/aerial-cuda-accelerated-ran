@@ -1,0 +1,353 @@
+relative_path = ../../../cuPHY/nvlog/config/nvlog_config.yaml 
+06:49:33.796428 CON 2460185 0 [NVLOG.CPP] Using /workspace/aerial-cuda-accelerated-ran/cuPHY/nvlog/config/nvlog_config.yaml for nvlog configuration
+06:49:33.861510 CON 2460185 0 [NVLOG.CPP] Output log file path /tmp/cubb_gpu_test_bench.log
+06:49:33.862262 CON 2460185 0 [TESTBENCH] CUDA_DEVICE_MAX_CONNECTIONS 8
+Pattern 0: DDDSUUDDDD mode A0
+Pattern 1: DDDSUUDDDD mode A0
+Pattern 2: DDDSUUDDDD mode A0
+Pattern 3: DDDSUUDDDD mode A0
+Pattern 4: DDDSUUDDDD mode A0
+Pattern 5: DDDSUUDDDD mode A0
+Pattern 6: DDDSUUDDDD mode A0
+Pattern 7: DDDSUUDDDD mode A0
+Pattern 8: DDDSUUDDDD mode A0
+Pattern 9: DDDSUUDDDD mode A0
+
+----------------------------------------------------------
+Notes on run setup:
+--> 2 CUDA contexts (workers) are run in parallel and in Graphs mode: 2 cuPHY CUDA contexts, 0 cuMAC contexts 
+
+requested SMs for context [0] PdschTxTestWorker    : 66
+requested SMs for context [1] PuschRxTestWorker    : 66
+
+Primary Context Id 0x226efc30
+----------------------------------------------------------
+Make request m_wrkrId 0 smCountRequested 66
+m_wrkrId 0 smCountRequested 66 smCountApplied 66
+Make request m_wrkrId 1 smCountRequested 66
+PdschTxTestWorker worker 0 :
+--> assigned 66 SMs
+--> Runs 12 stream(s) in parallel
+--> Each stream processes 8 PDSCH test-vector(s) in series
+
+CUDA stream prios: PUSCH -2, PUSCH2 -2, PDSCH -4, SRS -2, PRACH -3, PDCCH -4, PUCCH -3, PUCCH2 -3, SSB -4, CSIRS -4, ULBFW -2, DLBFW -3 
+m_wrkrId 1 smCountRequested 66 smCountApplied 66
+PuschRxTestWorker worker 1 :
+--> assigned 66 SMs
+--> Runs 12 stream(s) in parallel
+--> Each stream processes 1 PUSCH test-vector(s) in series
+
+CUDA stream prios: PUSCH -2, PUSCH2 -2, PDSCH -4, SRS -2, PRACH -3, PDCCH -4, PUCCH -3, PUCCH2 -3, SSB -4, CSIRS -4, ULBFW -2, DLBFW -3 
+06:49:36.524968 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d688c048c0).
+06:49:36.555608 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc48bd30).
+06:49:36.560027 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc4aa630).
+06:49:36.563708 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc4bf360).
+06:49:36.567599 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc4d66b0).
+06:49:36.571639 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc4ec2d0).
+06:49:36.575349 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc50a7d0).
+06:49:36.579184 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc55a090).
+06:49:36.584599 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc572d70).
+06:49:36.588544 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc5e12f0).
+06:49:36.593121 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc63a0b0).
+06:49:36.596816 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc651370).
+06:49:36.600809 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc665f40).
+06:49:36.605199 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc67b960).
+06:49:36.608988 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc699ee0).
+06:49:36.612774 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc6eba50).
+06:49:36.617300 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc700c50).
+06:49:36.621067 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc71ffd0).
+06:49:36.624715 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc737210).
+06:49:36.631568 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc74bee0).
+06:49:36.635747 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc761a80).
+06:49:36.639656 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc7be720).
+06:49:36.644142 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc7d5a00).
+06:49:36.647857 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc7ea620).
+06:49:36.651891 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc83a160).
+06:49:36.656590 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc85c2b0).
+06:49:36.661095 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc8c6010).
+06:49:36.664884 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc8db460).
+06:49:36.669034 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc8f0110).
+06:49:36.674422 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc94c3a0).
+06:49:36.678384 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc960fc0).
+06:49:36.682252 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc975da0).
+06:49:36.687208 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc997a90).
+06:49:36.691139 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc9b0170).
+06:49:36.695300 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc9c50b0).
+06:49:36.699252 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cc9d9e00).
+06:49:36.703263 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cca35670).
+06:49:36.707961 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cca4b460).
+06:49:36.711786 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cca9c0d0).
+06:49:36.718390 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccab1100).
+06:49:36.722770 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccad3370).
+06:49:36.727425 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccaebe40).
+06:49:36.731860 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccb00fb0).
+06:49:36.736302 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccba7f50).
+06:49:36.741077 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccbc6e50).
+06:49:36.744832 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccbdcef0).
+06:49:36.748585 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccbf1de0).
+06:49:36.752472 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccc091c0).
+06:49:36.756838 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccc28060).
+06:49:36.760913 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccc78800).
+06:49:36.765592 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccc8fba0).
+06:49:36.769460 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cccae520).
+06:49:36.773599 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cccc3400).
+06:49:36.778043 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cccdbfc0).
+06:49:36.781892 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cccf4110).
+06:49:36.785866 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccd4d0d0).
+06:49:36.790708 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccd624a0).
+06:49:36.794537 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccdb53d0).
+06:49:36.798405 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccdca260).
+06:49:36.805191 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccde8900).
+06:49:36.810425 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccdfe990).
+06:49:36.814497 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cce6c3a0).
+06:49:36.819024 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccebc8c0).
+06:49:36.822914 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccedb330).
+06:49:36.826942 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccef2b60).
+06:49:36.831761 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccf0a0d0).
+06:49:36.835596 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccf29980).
+06:49:36.839804 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccf3e930).
+06:49:36.843623 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccf55ca0).
+06:49:36.847709 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccf6adb0).
+06:49:36.851794 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccfc4c90).
+06:49:36.856482 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5ccfd9bb0).
+06:49:36.860497 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd02c1e0).
+06:49:36.864521 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd043f80).
+06:49:36.868580 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd063770).
+06:49:36.873270 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd07aeb0).
+06:49:36.877050 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd0ca5f0).
+06:49:36.881577 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd0df510).
+06:49:36.886143 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd1547a0).
+06:49:36.893517 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd16ba60).
+06:49:36.897518 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd181cb0).
+06:49:36.901805 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd1dafd0).
+06:49:36.906523 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd1f3cb0).
+06:49:36.910440 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd208bb0).
+06:49:36.914602 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd21dd00).
+06:49:36.918661 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd23f400).
+06:49:36.922962 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd257910).
+06:49:36.927001 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd2a71e0).
+06:49:36.931609 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd2bc6f0).
+06:49:36.935655 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd2dd540).
+06:49:36.939466 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd2f3560).
+06:49:36.943613 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd308510).
+06:49:36.947471 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd31d250).
+06:49:36.951579 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd378a90).
+06:49:36.956874 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd38e860).
+06:49:36.961235 CON 2460192 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 33.747 MiB for cuPHY PDSCH channel object (0x75d5cd4339d0).
+06:49:37.047689 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.099452 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d664c1b8c0).
+06:49:37.099459 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.154995 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.176581 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d6653c5770).
+06:49:37.176588 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.232279 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.254650 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d665860690).
+06:49:37.254656 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.348663 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.371490 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d665d2cb30).
+06:49:37.371498 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.426469 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.448831 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d666211410).
+06:49:37.448839 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.504208 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.526480 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d6666a12b0).
+06:49:37.526488 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.581909 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.605090 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d666b39290).
+06:49:37.605097 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.695597 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.718781 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d66700ccb0).
+06:49:37.718788 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.774095 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.796982 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d6674995a0).
+06:49:37.796990 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.852830 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.875770 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d6679289c0).
+06:49:37.875778 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:37.961202 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:37.996607 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d667dc1120).
+06:49:37.996614 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.056586 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.081577 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d5042c35f0).
+06:49:38.081585 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.136729 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.160015 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d5047a8bb0).
+06:49:38.160023 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.214493 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.263579 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d504c34de0).
+06:49:38.263587 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.318791 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.342458 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d5050d0d10).
+06:49:38.342465 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.397164 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.420985 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d5055ab980).
+06:49:38.420993 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.476310 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.502192 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d505a3ac40).
+06:49:38.502199 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.556833 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.581256 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d505ee2890).
+06:49:38.581264 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.635912 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.663296 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d5063b38a0).
+06:49:38.663304 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.718879 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.743416 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d50689b930).
+06:49:38.743423 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.800112 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.836963 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d506d28ae0).
+06:49:38.836971 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.907576 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:38.932195 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d5071b7480).
+06:49:38.932203 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:38.987700 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+06:49:39.012183 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d50768aa80).
+06:49:39.012191 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+06:49:39.066542 CON 2460193 0 [CUPHY.PUSCH_RX] LDPC throughput mode disabled
+cuPHY Test Worker[0]: SM Id counts 132
+00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 
+cuPHY Test Worker[1]: SM Id counts 132
+00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 
+06:49:39.091510 CON 2460193 0 [CUPHY.MEMFOOT] cuphyMemoryFootprint - GPU allocation: 14.131 MiB for cuPHY PUSCH channel object (0x75d507b198b0).
+06:49:39.091518 CON 2460193 0 [CUPHY.PUSCH_RX] PuschRx: Running with eqCoeffAlgo 3
+
+-----------------------------------------------------------
+Slot pattern # 0
+average slot pattern run time: 4251.20 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1240.57 us from 96.51 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 2345.23 us from 1524.24 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 232.85 us from 3.26 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 647.56 us from 500.12 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1146.59 us from 1000.38 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1648.27 us from 1500.91 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2185.02 us from 2004.48 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2684.07 us from 2507.15 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3155.85 us from 3003.81 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3686.34 us from 3516.74 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 1
+average slot pattern run time: 4252.50 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1236.92 us from 96.16 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 2352.36 us from 1516.25 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 232.86 us from 3.26 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 645.94 us from 499.10 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1145.01 us from 999.36 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1646.90 us from 1499.68 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2181.36 us from 2002.64 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2679.46 us from 2503.84 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3153.24 us from 3001.95 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3682.18 us from 3514.05 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 2
+average slot pattern run time: 5314.26 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1877.18 us from 120.69 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 3309.28 us from 1866.44 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 236.26 us from 3.33 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 658.03 us from 511.74 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1147.78 us from 1000.45 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1647.14 us from 1497.07 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2684.88 us from 1999.84 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 3165.22 us from 2925.16 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3479.81 us from 3309.11 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3900.29 us from 3728.26 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 3
+average slot pattern run time: 4175.38 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1245.57 us from 95.22 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 2339.83 us from 1509.07 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 228.11 us from 3.45 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 647.70 us from 499.63 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1147.27 us from 1000.45 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1647.98 us from 1500.96 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2198.79 us from 2007.56 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2681.75 us from 2505.71 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3155.57 us from 3002.72 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3678.62 us from 3513.78 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 4
+average slot pattern run time: 4179.76 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1230.51 us from 95.40 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 2306.92 us from 1505.95 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 227.45 us from 3.31 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 644.57 us from 498.82 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1144.42 us from 998.88 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1645.74 us from 1499.02 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2191.50 us from 2003.29 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2677.78 us from 2503.49 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3150.95 us from 3000.63 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3669.19 us from 3508.48 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 5
+average slot pattern run time: 4137.82 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1226.40 us from 94.49 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 2296.97 us from 1500.13 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 225.50 us from 3.45 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 646.07 us from 499.14 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1144.52 us from 999.29 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1645.96 us from 1499.39 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2193.30 us from 2004.67 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2679.82 us from 2504.25 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3152.11 us from 3000.78 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3662.71 us from 3504.19 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 6
+average slot pattern run time: 5365.30 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1851.78 us from 126.69 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 3337.10 us from 1861.85 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 235.35 us from 3.36 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 657.94 us from 511.71 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1147.02 us from 999.89 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1646.92 us from 1496.66 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2680.83 us from 1999.57 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 3134.20 us from 2914.29 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3461.92 us from 3292.37 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3885.70 us from 3715.05 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 7
+average slot pattern run time: 4243.41 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1256.04 us from 97.38 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 2336.22 us from 1517.73 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 232.37 us from 3.51 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 649.02 us from 499.84 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1148.14 us from 1000.83 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1650.35 us from 1501.58 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2185.09 us from 2005.34 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2687.41 us from 2508.63 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3159.35 us from 3006.25 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3686.18 us from 3518.31 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 8
+average slot pattern run time: 4222.36 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1245.56 us from 95.59 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 2328.33 us from 1504.57 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 230.15 us from 3.12 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 645.17 us from 498.70 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1144.21 us from 998.80 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1646.18 us from 1498.88 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2191.45 us from 2002.62 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 2679.73 us from 2501.84 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3151.66 us from 3001.03 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3681.37 us from 3514.36 (averaged over 1000 iterations) 
+
+-----------------------------------------------------------
+Slot pattern # 9
+average slot pattern run time: 5034.02 us (averaged over 1000 iterations) 
+Average PUSCH run time: 1684.97 us from 118.84 (averaged over 1000 iterations) 
+Average PUSCH2 run time: 3045.66 us from 1769.27 (averaged over 1000 iterations) 
+Slot # 0: average PDSCH run time: 241.29 us from 3.83 (averaged over 1000 iterations) 
+Slot # 1: average PDSCH run time: 665.09 us from 518.80 (averaged over 1000 iterations) 
+Slot # 2: average PDSCH run time: 1154.91 us from 1007.58 (averaged over 1000 iterations) 
+Slot # 3: average PDSCH run time: 1651.24 us from 1502.17 (averaged over 1000 iterations) 
+Slot # 4: average PDSCH run time: 2571.57 us from 2002.71 (averaged over 1000 iterations) 
+Slot # 5: average PDSCH run time: 3028.08 us from 2807.27 (averaged over 1000 iterations) 
+Slot # 6: average PDSCH run time: 3380.96 us from 3217.32 (averaged over 1000 iterations) 
+Slot # 7: average PDSCH run time: 3830.11 us from 3658.80 (averaged over 1000 iterations) 
+Exiting bg_fmtlog_collector - log queue ever was full: 0
